@@ -1,0 +1,1559 @@
+/********VARIABLES**************/
+:root {
+  --letra-blue: #091133;
+  --fcee-color: #DF5900;
+  --derecho-color: #C00D1A; /*R: 192 G: 13 B: 26*/
+  --biomedica-color: #5D0FBA; /*R: 93 G: 15 B: 186*/
+  --umpe-color: #0051AD; /*R: 0 G: 81 B: 173*/
+  --vum-color: #36c494; /*R: 54 G: 196 B: 148*/
+  --fium-color: #3f47cc;
+  --bg-gray-claro: #eaeeed;
+  --fcom-color: #22b14c;
+  --fhum-color: #00a2e8;
+}
+
+/**********FIN*****************/
+.bg-gray-claro {
+  background: var(--bg-gray-claro);
+}
+
+.region-menu .container .row {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .region-menu .container {
+    width: 1200px;
+  }
+}
+
+#block-navegacionprincipal {
+  /*width: 46%!important;*/
+}
+
+.region-menu .container .row .block-superfish {
+  width: 53%;
+}
+
+ul.sf-menu a,
+ul.sf-menu span.nolink {
+  padding: 1em 0em !important;
+  cursor: pointer;
+}
+
+ul.sf-menu.menu li {
+  margin: 0 auto;
+}
+
+ul.sf-menu li:hover > ul, ul.sf-menu li.sfHover > ul {
+  top: 45px;
+}
+
+#superfish-main li.menuparent:after,
+.sf-menu li.menuparent:after {
+  /*top: 10px;*/
+}
+
+.p-relative {
+  position: relative;
+}
+
+#ofertas-postgrados .views-row .con-bottom a::after {
+  content: '';
+  display: inline-block;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 22px;
+}
+
+.cal-box .sliding a::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../images/down-arrow.png");
+  background-repeat: no-repeat;
+}
+
+.node-61 .social-list li {
+  margin: 15px;
+}
+
+/**********MENU RESPONSIVE***********/
+.cssmenu-resp .block-search {
+  border-top: 1px solid #f6f6f6;
+  padding: 2rem 24px;
+}
+
+.cssmenu-resp .block-search form {
+  width: 100%;
+}
+
+.cssmenu-resp .block-search form input[type="search"] {
+  width: 100%;
+}
+
+.cssmenu-responsive ul.nav > li a {
+  padding-left: 2.5rem;
+  color: #AAAAAD;
+  transition: 0.3s all ease-out;
+}
+
+.cssmenu-responsive ul.nav > li span:not(.submenu-button) {
+  padding: 0px 24px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #AAAAAD;
+  transition: 0.3s all ease-out;
+}
+
+.cssmenu-responsive ul.nav > li span:not(.submenu-button):active,
+.cssmenu-responsive ul.nav > li span:not(.submenu-button):hover,
+.cssmenu-responsive ul.nav > li span:not(.submenu-button):focus {
+  color: #004D91;
+  background: #eee;
+}
+
+.cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-responsive ul.nav > li a:active,
+.cssmenu-responsive ul.nav > li a:focus {
+  color: #004D91;
+  background: #eee;
+}
+
+.cssmenu-responsive ul.nav li.has-sub span.active {
+  color: #004D91;
+  background: #eee;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+.cssmenu-responsive ul.nav > .menu-item {
+  margin-top: 0;
+  padding: 0;
+}
+
+.cssmenu-responsive ul.nav a.is-active {
+  color: #000;
+}
+
+.cssmenu-responsive ul.nav ul li a {
+  padding-left: 3.5rem !important;
+}
+
+.cssmenu-responsive > ul > li > a {
+  padding: 0px 20px;
+  letter-spacing: 1px;
+  line-height: 45px !important;
+  position: relative !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#cssmenu {
+  top: 76px;
+}
+
+.cssmenu-resp {
+  background: #fff;
+}
+
+/**********FIN MENU RESPONSIVE************/
+
+/************FCEE (NARANJA)************/
+.style-page-orange .sf-menu li.menuparent:after {
+  color: #fff;
+}
+
+.cssmenu-orange .cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-orange .cssmenu-responsive ul.nav > li a:active,
+.cssmenu-orange .cssmenu-responsive ul.nav > li a:focus {
+  color: var(--fcee-color);
+}
+
+.cssmenu-orange .cssmenu-responsive ul.nav li.has-sub span.active {
+  color: var(--fcee-color);
+}
+
+.style-page-orange ul.sf-menu a {
+  color: var(--fcee-color);
+}
+
+.style-page-orange ul.sf-menu a:hover {
+  color: var(--fcee-color);
+}
+
+.style-page-orange #superfish-main li.sfHover ul li a:hover {
+  color: var(--fcee-color) !important;
+}
+
+.bg-orange1 ul.sf-menu .sf-depth-1 ul li a {
+  color: #AAAAAD;
+}
+
+.bg-orange1 ul.sf-menu .sf-depth-1 ul li a:hover,
+.bg-orange1 ul.sf-menu .sf-depth-1 ul li a:active,
+.bg-orange1 ul.sf-menu .sf-depth-1 ul li a:focus,
+.bg-orange1 ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fcee-color) !important;
+}
+
+.view-informacion-de-facultades .views-row .views-field-title a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.view-informacion-de-facultades h3 a:hover,
+.view-informacion-de-facultades h3 a:active,
+.view-informacion-de-facultades h3 a:focus {
+  color: #fff;
+}
+
+/************FIN FCEE (NARANJA)************/
+
+
+/***********FACULTAD DERECHO***************/
+.style-page-red .sf-menu li.menuparent:after {
+  color: #fff !important;
+}
+
+.cssmenu-red .cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-red .cssmenu-responsive ul.nav > li a:active,
+.cssmenu-red .cssmenu-responsive ul.nav > li a:focus {
+  color: var(--derecho-color);
+}
+
+.cssmenu-red .cssmenu-responsive ul.nav li.has-sub span.active {
+  color: var(--derecho-color);
+}
+
+.style-page-red ul.sf-menu a {
+  color: var(--derecho-color);
+}
+
+.style-page-red ul.sf-menu a:hover {
+  color: var(--derecho-color);
+}
+
+.style-page-red #superfish-main li.sfHover ul li a:hover {
+  color: var(--derecho-color) !important;
+}
+
+.style-page-red .region-menu {
+  background: var(--derecho-color);
+}
+
+.bg-red ul.sf-menu .sf-no-children a.sf-depth-1,
+.bg-red ul.sf-menu .sf-depth-1 .nolink,
+.style-page-violet ul.sf-menu .sf-no-children a.sf-depth-1 {
+  color: #ffffff;
+}
+
+.bg-red #superfish-main li.menuparent::after {
+  color: #ffffff;
+}
+
+.bg-red ul.sf-menu .sf-depth-1 ul li a {
+  color: #AAAAAD;
+}
+
+.bg-red ul.sf-menu .sf-depth-1 ul li a:hover,
+.bg-red ul.sf-menu .sf-depth-1 ul li a:active,
+.bg-red ul.sf-menu .sf-depth-1 ul li a:focus,
+.bg-red ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--derecho-color) !important;
+}
+
+.bg-red .nav > li > a:focus,
+.bg-red .nav > li > a:hover {
+  background-color: transparent;
+}
+
+.style-page-red #block-enlacesanclados ul.menu li.active {
+  background: var(--derecho-color) !important;
+}
+
+.style-page-red #block-enlacesanclados ul.menu .menu-item:hover a {
+  background: var(--derecho-color) !important;
+}
+
+.layout-container-derecho #block-carrerasdegradoderecho ul.menu .g-btn {
+  width: 32%;
+  text-transform: uppercase;
+  background: var(--derecho-color);
+}
+
+.layout-container-derecho #block-carrerasdegradoderecho ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .layout-container-derecho #block-carrerasdegradoderecho ul.menu {
+    flex-wrap: wrap;
+  }
+
+  .layout-container-derecho #block-carrerasdegradoderecho ul.menu .g-btn {
+    width: 100%;
+    text-transform: uppercase;
+    background: var(--derecho-color);
+  }
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.style-page-red .g-card:hover {
+  background: var(--derecho-color);
+}
+
+.style-page-red .g-card a {
+  font-weight: bold;
+}
+
+.block-views-blockdiplomas-fcee-block-2 .sec-title,
+.block-views-blockperfil-facultades-block-1 .sec-title {
+  padding-bottom: 0px;
+}
+
+.block-views-blockdiplomas-fcee-block-2 .view-header .sec-title,
+.block-views-blockperfil-facultades-block-1 .view-header .sec-title {
+  padding-bottom: 50px;
+}
+
+.style-page-red .block-views-blockdiplomas-fcee-block-2 .subtext.color-blue,
+.style-page-red .block-views-blockperfil-facultades-block-1 .subtext.color-blue {
+  font-weight: normal;
+}
+
+.style-page-red .border-bottom-gray {
+  border-bottom: 2px solid #838F9F;
+}
+
+.style-page-red .view-diplomas-fcee .view-content .row {
+  margin-top: 60px;
+}
+
+.style-page-red .view-diplomas-fcee .view-content .g-card {
+  text-transform: unset;
+  height: 190px;
+  background: rgba(255, 255, 255, .7);
+}
+
+.style-page-red .view-diplomas-fcee .view-content .g-card a {
+  color: #091133;
+}
+
+.style-page-red .view-diplomas-fcee .view-content .g-card:hover {
+  background: rgba(192, 13, 26, .7);
+}
+
+.style-page-red .view-diplomas-fcee .view-content .g-card:hover a {
+  color: #fff;
+}
+
+.block-views-blockperfil-facultades-block-1 .view-perfil-facultades ul li a i {
+  font-weight: normal;
+}
+
+.block-views-blockperfil-facultades-block-1 .view-perfil-facultades ul li a {
+  font-size: 17px;
+}
+
+#ofertas-postgrados .dep-bg .block h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-bottom: 2.5rem;
+}
+
+#ofertas-postgrados .views-row a {
+  color: #6F7CB2;
+  font-size: 22px;
+  transition: all .6s ease-in-out;
+}
+
+#ofertas-postgrados .views-row a:hover {
+  color: var(--derecho-color);
+}
+
+#ofertas-postgrados .views-row {
+  margin-bottom: 1rem;
+}
+
+.red-news .news-overlay {
+  background: linear-gradient(178.62deg, var(--derecho-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.style-page-greenyellow .news-overlay {
+  background: linear-gradient(178.62deg, var(--fcom-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.style-page-aqua .news-overlay {
+  background: linear-gradient(178.62deg, var(--fhum-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.style-page-red .word-des p {
+  color: #091133;
+}
+
+.list-card li p {
+  opacity: .5;
+  transition: all .6s ease-in-out;
+}
+
+.list-card li:hover p {
+  opacity: 1;
+}
+
+.style-page-red .list-card li:hover {
+  background: var(--derecho-color);
+}
+
+.style-page-red .region-silder nav ul.menu li.active,
+.style-page-red .region-silder nav ul.menu li.active a {
+  /*background: var(--derecho-color);*/
+  /*color: #fff !important;*/
+}
+
+/********FIN FACULTAD DERECHO************/
+
+/***********FACULTAD BIOMEDICAS************/
+.style-page-purple .sf-menu li.menuparent:after {
+  color: #fff !important;
+}
+
+.style-page-purple .region-silder nav ul.menu li.active,
+.style-page-purple .region-silder nav ul.menu li.active a {
+  /*background: var(--biomedica-color);*/
+  /*color: #fff !important;*/
+}
+
+.style-page-purple .border-bottom-gray {
+  border-bottom: 2px solid #838F9F;
+}
+
+.cssmenu-purple .cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-purple .cssmenu-responsive ul.nav > li a:active,
+.cssmenu-purple .cssmenu-responsive ul.nav > li a:focus {
+  color: var(--biomedica-color);
+}
+
+.cssmenu-purple .cssmenu-responsive ul.nav li.has-sub span.active {
+  color: var(--biomedica-color);
+}
+
+.style-page-purple ul.sf-menu a {
+  color: var(--biomedica-color);
+}
+
+.style-page-purple ul.sf-menu a:hover {
+  color: var(--biomedica-color);
+}
+
+.style-page-purple #superfish-main li.sfHover ul li a:hover {
+  color: var(--biomedica-color) !important;
+}
+
+.style-page-purple .region-menu {
+  background: var(--biomedica-color);
+}
+
+.bg-purple ul.sf-menu .sf-no-children a.sf-depth-1,
+.bg-purple ul.sf-menu .sf-depth-1 .nolink {
+  color: #ffffff;
+}
+
+.bg-purple #superfish-main li.menuparent::after {
+  color: #ffffff;
+}
+
+.bg-purple ul.sf-menu .sf-depth-1 ul li a {
+  color: #AAAAAD;
+}
+
+.bg-purple ul.sf-menu .sf-depth-1 ul li a:hover,
+.bg-purple ul.sf-menu .sf-depth-1 ul li a:active,
+.bg-purple ul.sf-menu .sf-depth-1 ul li a:focus,
+.bg-purple ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--biomedica-color) !important;
+}
+
+.bg-purple .nav > li > a:focus,
+.bg-purple .nav > li > a:hover {
+  background-color: transparent;
+}
+
+.style-page-purple #block-enlacesanclados ul.menu li.active {
+  background: var(--biomedica-color) !important;
+}
+
+.style-page-purple #block-enlacesanclados ul.menu .menu-item:hover a {
+  background: var(--biomedica-color) !important;
+}
+
+.view-especialidades-biomedicas .g-card,
+.view-especialidades-biomedicas .g-card a {
+  font-weight: bold;
+}
+
+.style-page-purple .g-card:hover {
+  background: var(--biomedica-color);
+}
+
+.layout-container-biomedicas #block-menuespecialidadesbiomedicas ul.menu .g-btn {
+  width: 32%;
+  text-transform: uppercase;
+  background: var(--biomedica-color);
+}
+
+@media (max-width: 991px) {
+  .layout-container-biomedicas #block-menuespecialidadesbiomedicas ul.menu {
+    flex-wrap: wrap;
+  }
+
+  .layout-container-biomedicas #block-menuespecialidadesbiomedicas ul.menu .g-btn {
+    width: 100%;
+    text-transform: uppercase;
+    background: var(--biomedica-color);
+  }
+}
+
+.layout-container-biomedicas #block-menuespecialidadesbiomedicas ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#block-views-block-cursos-avanzados-biomedicas-block-1 h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-top: 0;
+  margin-bottom: 120px;
+}
+
+.style-page-purple .view-cursos-avanzados-biomedicas .view-content .g-card {
+  text-transform: unset;
+  background: rgba(255, 255, 255, .7);
+  height: 160px;
+}
+
+.style-page-purple .view-cursos-avanzados-biomedicas .view-content .g-card a {
+  font-weight: bold;
+  color: #091133;
+  font-size: 23px;
+  transition: all .6s ease-in-out;
+}
+
+.style-page-purple .view-cursos-avanzados-biomedicas .view-content .g-card:hover {
+  background: rgba(93, 15, 186, .7);
+}
+
+.style-page-purple .view-cursos-avanzados-biomedicas .view-content .g-card:hover a {
+  color: #fff;
+}
+
+#block-views-block-seminarios-biomedicas-block-1 h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-top: 0;
+  margin-bottom: 120px;
+}
+
+.style-page-purple .view-seminarios-biomedicas .view-content .g-card {
+  text-transform: unset;
+  background: rgba(255, 255, 255, .7);
+  height: 160px;
+}
+
+.style-page-purple .view-seminarios-biomedicas .view-content .g-card a,
+.style-page-purple .view-seminarios-biomedicas .view-content .g-card,
+.style-page-purple .view-ofertas-de-postgrado-facultades .view-content .g-card,
+.style-page-purple .view-ofertas-de-postgrado-facultades .view-content .g-card a {
+  font-weight: bold;
+  color: #A2ABB7;
+  font-size: 22px;
+  transition: all .6s ease-in-out;
+}
+
+.style-page-purple .view-seminarios-biomedicas .view-content .g-card:hover {
+  background: rgba(93, 15, 186, .7);
+  color: #fff;
+}
+
+.style-page-purple .view-ofertas-de-postgrado-facultades .view-content .g-card:hover a {
+  color: #fff !important;
+}
+
+.style-page-purple .list-card li:hover {
+  background: var(--biomedica-color);
+}
+
+.style-page-purple .list-card li h3 {
+  font-size: 20px;
+}
+
+.word-des p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  color: #091133;
+  margin-top: 20px;
+}
+
+/*******FIN FACULTAD BIOMEDICAS************/
+
+/*************FACULTAD umpe***************/
+.style-page-blue .social-list li {
+  margin: 15px;
+}
+
+.style-page-blue .region-silder nav ul.menu li.active,
+.style-page-blue .region-silder nav ul.menu li.active a {
+  /*background: var(--umpe-color);*/
+  /*color: #fff !important;*/
+}
+
+.style-page-blue .border-bottom-gray {
+  border-bottom: 2px solid #838F9F;
+}
+
+.cssmenu-blue .cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-blue .cssmenu-responsive ul.nav > li a:active,
+.cssmenu-blue .cssmenu-responsive ul.nav > li a:focus {
+  color: var(--umpe-color);
+}
+
+.cssmenu-blue .cssmenu-responsive ul.nav li.has-sub span.active {
+  color: var(--umpe-color);
+}
+
+.style-page-blue ul.sf-menu a {
+  color: var(--umpe-color);
+}
+
+.style-page-blue ul.sf-menu a:hover {
+  color: var(--umpe-color);
+}
+
+.style-page-blue #superfish-main li.sfHover ul li a:hover {
+  color: var(--umpe-color) !important;
+}
+
+.style-page-blue .region-menu {
+  background: var(--umpe-color);
+}
+
+.bg-blue ul.sf-menu .sf-no-children a.sf-depth-1,
+.bg-blue ul.sf-menu .sf-depth-1 .nolink {
+  color: #ffffff;
+}
+
+.bg-blue #superfish-main li.menuparent::after {
+  color: #ffffff;
+}
+
+.bg-blue ul.sf-menu .sf-depth-1 ul li a {
+  color: #AAAAAD;
+}
+
+.bg-blue ul.sf-menu .sf-depth-1 ul li a:hover,
+.bg-blue ul.sf-menu .sf-depth-1 ul li a:active,
+.bg-blue ul.sf-menu .sf-depth-1 ul li a:focus,
+.bg-blue ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--umpe-color);
+}
+
+.bg-blue .nav > li > a:focus,
+.bg-blue .nav > li > a:hover {
+  background-color: transparent;
+}
+
+#block-enlaceancladosumpe ul.nav {
+  background: transparent;
+  position: absolute;
+  z-index: 1000;
+  bottom: -65px;
+  padding: 40px 0px;
+}
+
+#block-enlaceancladosumpe ul.menu .menu-item {
+  width: 197px;
+  height: 88px;
+  background: #EEEEEE;
+  border-radius: 5px;
+  margin: 0px 3px;
+  float: left;
+  padding-top: 0px;
+}
+
+#block-enlaceancladosumpe ul.menu .menu-item a {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#block-enlaceancladosumpe ul.menu .menu-item:hover a {
+  background: var(--umpe-color) !important;
+  color: #fff;
+}
+
+#block-enlaceancladosumpe ul.nav a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #091133;
+  transition: 0.6s all ease;
+}
+
+.style-page-blue .g-card:hover {
+  background: var(--umpe-color);
+}
+
+.style-page-blue .g-card:hover a {
+  color: #fff !important;
+}
+
+.style-page-blue .g-card a {
+  color: #A2ABB7;
+}
+
+.view-maestrias-umpe .g-card,
+.view-maestrias-umpe .g-card a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.view-maestrias-umpe .g-card {
+  min-height: 160px;
+  height: auto;
+}
+
+.view-maestrias-umpe .views-row:nth-child(4) .g-card,
+.view-maestrias-umpe .views-row:nth-child(5) .g-card,
+.view-maestrias-umpe .views-row:nth-child(6) .g-card {
+  height: 240px;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-6 .views-row:nth-child(4) .g-card,
+#block-views-block-ofertas-de-postgrado-facultades-block-6 .views-row:nth-child(5) .g-card,
+#block-views-block-ofertas-de-postgrado-facultades-block-6 .views-row:nth-child(6) .g-card {
+  height: 240px;
+}
+
+.layout-container-umpe #block-menumaestriasumpe ul.menu {
+  margin-left: 0px;
+}
+
+.layout-container-umpe #block-menumaestriasumpe ul.menu .g-btn {
+  /*width: 32%;*/
+  text-transform: uppercase;
+  background: var(--umpe-color);
+}
+
+@media (max-width: 991px) {
+  .layout-container-umpe #block-menumaestriasumpe ul.menu {
+    flex-wrap: wrap;
+  }
+
+  .layout-container-umpe #block-menumaestriasumpe ul.menu .g-btn {
+    width: 100%;
+    text-transform: uppercase;
+    background: var(--umpe-color);
+  }
+}
+
+.layout-container-umpe #block-menumaestriasumpe ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#block-views-block-postgrado-block-2 > .sec-title {
+  padding-bottom: 0px;
+}
+
+.view-postgrado .view-header .subtext {
+  font-weight: normal;
+}
+
+.view-postgrado .g-card {
+  text-transform: unset;
+  height: 180px;
+  font-size: 24px;
+}
+
+.view-postgrado .g-card a {
+  color: #091133;
+  font-weight: bold;
+}
+
+.view-postgrado .content-list li .views-field-name {
+  /*display: inline-block;*/
+  width: 86%;
+}
+
+#block-views-block-diplomas-block-1 > h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-top: 0;
+  padding-bottom: 100px;
+}
+
+.view-diplomas .dep-list a {
+  display: flex;
+  padding-top: 36px;
+}
+
+.view-diplomas .dep-list a i {
+  padding-top: 8px;
+}
+
+.view-diplomas .dep-list a div {
+  padding-left: 2.5rem;
+}
+
+.blue-news .news-overlay {
+  background: linear-gradient(178.62deg, var(--umpe-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.style-page-blue .list-card li:hover {
+  background: var(--umpe-color);
+}
+
+.view-informacion-de-facultades.view-display-id-block_4 .views-row:nth-child(7) p {
+  display: none;
+}
+
+/***********FIN FACULTAD umpe*************/
+
+/***************VIDA UNIVERSITARIA**************/
+.style-page-green .region-silder nav ul.menu li.active,
+.style-page-green .region-silder nav ul.menu li.active a {
+  background: var(--vum-color);
+  color: #fff !important;
+}
+
+.style-page-green .border-bottom-gray {
+  border-bottom: 2px solid #838F9F;
+}
+
+.cssmenu-green .cssmenu-responsive ul.nav > li a:hover,
+.cssmenu-green .cssmenu-responsive ul.nav > li a:active,
+.cssmenu-green .cssmenu-responsive ul.nav > li a:focus {
+  color: var(--vum-color);
+}
+
+.cssmenu-green .cssmenu-responsive ul.nav li.has-sub span.active {
+  color: var(--vum-color);
+}
+
+.style-page-green ul.sf-menu a {
+  color: var(--vum-color);
+}
+
+.style-page-green ul.sf-menu a:hover {
+  color: var(--vum-color);
+}
+
+.style-page-green #superfish-main li.sfHover ul li a:hover {
+  color: var(--vum-color) !important;
+}
+
+.style-page-green .region-menu,
+.node-162 .region-menu,
+.style-page-vum .region-menu {
+  background: var(--vum-color);
+}
+
+.node-162 ul.sf-menu a.sf-depth-1,
+.node-162 ul.sf-menu li.active-trail a:hover {
+  color: #ffffff;
+}
+
+.bg-green ul.sf-menu .sf-no-children a.sf-depth-1,
+.bg-green ul.sf-menu .sf-depth-1 .nolink {
+  color: #ffffff;
+}
+
+.bg-green #superfish-main li.menuparent::after {
+  color: #ffffff;
+}
+
+.bg-green ul.sf-menu .sf-depth-1 ul li a {
+  color: #AAAAAD;
+}
+
+.bg-green ul.sf-menu .sf-depth-1 ul li a:hover,
+.bg-green ul.sf-menu .sf-depth-1 ul li a:active,
+.bg-green ul.sf-menu .sf-depth-1 ul li a:focus,
+.bg-green ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--vum-color) !important;
+}
+
+.bg-green .nav > li > a:focus,
+.bg-green .nav > li > a:hover {
+  background-color: transparent;
+}
+
+.bg-green .sf-menu li.menuparent:after {
+  color: #fff;
+}
+
+.menu--enlace-anclados-vum ul.nav,
+.menu--enlaces-anclados-initium ul.nav,
+.menu--enlace-anclados-bibliotecas ul.nav {
+  background: transparent;
+  position: absolute;
+  z-index: 1000;
+  bottom: -65px;
+  padding: 40px 0px;
+}
+
+.menu--enlace-anclados-vum ul.menu .menu-item,
+.menu--enlaces-anclados-initium ul.menu .menu-item,
+.menu--enlace-anclados-bibliotecas ul.menu .menu-item {
+  width: 197px;
+  height: 88px;
+  background: #EEEEEE;
+  border-radius: 5px;
+  margin: 0px 3px;
+  float: left;
+  padding-top: 0px;
+}
+
+.menu--enlace-anclados-vum ul.menu .menu-item a,
+.menu--enlaces-anclados-initium ul.menu .menu-item a,
+.menu--enlace-anclados-bibliotecas ul.menu .menu-item a {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.menu--enlace-anclados-vum ul.nav a,
+.menu--enlaces-anclados-initium ul.nav a,
+.menu--enlace-anclados-bibliotecas ul.nav a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #091133;
+  transition: 0.6s all ease;
+}
+
+.menu--enlace-anclados-vum ul.nav,
+.menu--enlaces-anclados-initium ul.nav,
+.menu--enlace-anclados-bibliotecas ul.nav {
+  background: transparent;
+  position: absolute;
+  z-index: 1000;
+  bottom: -65px;
+  padding: 40px 0px;
+}
+
+.menu--enlace-anclados-vum ul.menu .menu-item:hover a,
+.menu--enlaces-anclados-initium ul.menu .menu-item:hover a,
+.menu--enlace-anclados-bibliotecas ul.menu .menu-item:hover a {
+  background: var(--vum-color) !important;
+  color: #fff;
+}
+
+.node-162 main section {
+  background: url("../images/grad-bg.png");
+}
+
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+.node-162 .imagen {
+  padding-top: 36px;
+}
+
+.node-162 .sec-title {
+  padding-bottom: 12px;
+}
+
+.node-162 .border-bottom-blue {
+  border-bottom-width: 2px;
+}
+
+.green-news .news-overlay {
+  background: linear-gradient(178.62deg, var(--vum-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.green-news .view-novedades-fcee.view-display-id-block_12 .news-card {
+  overflow: hidden;
+}
+
+.style-page-green .social-list li {
+  margin: 15px;
+}
+
+.webform-home.webform-vum .con-btn input {
+  background: var(--vum-color);
+}
+
+.link-description,
+.link-description a {
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #000;
+  padding: 2rem 3rem;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 28px;
+}
+
+.link-description i {
+  padding-right: 1rem;
+}
+
+.description-info {
+  color: #000;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.description-info div {
+  margin-bottom: 8px;
+}
+
+.view-id-vum .sec-title {
+  margin-left: 20px;
+}
+
+.node-162 .view-documentos {
+  margin-top: 12px;
+}
+
+.node-162 .view-documentos .views-row a {
+  background: #eee;
+  color: var(--letra-blue);
+  font-size: 18px;
+  margin-bottom: 4px;
+  display: block;
+  border-radius: 4px;
+  padding: 2.5rem 3.5rem;
+  transition: all .6s ease-in-out;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.node-162 .view-documentos .item-list li {
+  margin-left: 0rem;
+}
+
+.node-162 .view-documentos .views-row a:hover {
+  background: var(--vum-color);
+}
+
+
+.view-actividades.view-display-id-block_8 .views-row,
+.view-id-disciplinas.view-display-id-block_1 .views-row .imagen-titulo,
+.imagen-titulo {
+  position: relative;
+}
+
+.view-actividades.view-display-id-block_8 .views-row img,
+.view-id-disciplinas.view-display-id-block_1 .views-row img,
+.imagen-titulo img {
+  width: 100%;
+  height: auto;
+}
+
+.view-actividades.view-display-id-block_8 .views-row .views-field-field-image,
+.view-id-disciplinas.view-display-id-block_1 .views-row .views-field-field-image,
+.imagen-titulo .views-field-field-image {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#block-views-block-actividades-block-8 h2 {
+  margin-bottom: 50px;
+}
+
+.voluntariado-actividades {
+  background: url("../images/vum.png");
+}
+
+.view-actividades.view-display-id-block_8 .views-row .views-field-title,
+.view-id-disciplinas.view-display-id-block_1 .views-row .views-field-title,
+.imagen-titulo .views-field-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+
+.view-actividades.view-display-id-block_8 .views-row,
+.view-id-disciplinas.view-display-id-block_1 .views-row,
+.view-clubes-y-actividades .views-row {
+  margin-bottom: 1rem;
+}
+
+.view-actividades.view-display-id-block_8 .views-field-field-image,
+.view-id-disciplinas.view-display-id-block_1 .views-field-field-image,
+.imagen-titulo .views-field-field-image {
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.24);
+}
+
+.view-actividades.view-display-id-block_8 .views-row .views-field-title .field-content,
+.view-id-disciplinas.view-display-id-block_1 .views-row .views-field-title .field-content,
+.imagen-titulo .views-field-title .field-content {
+  background: rgba(255, 255, 255, .3);
+  color: var(--letra-blue);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+
+.title-absolute {
+  padding: 1rem 2.5rem;
+  max-width: 240px;
+}
+
+.view-id-disciplinas.view-display-id-block_1 .title-absolute {
+  padding: 1rem 2.5rem;
+  max-width: 288px;
+}
+
+.view-vum.view-display-id-block_3 .sec-title {
+  padding-bottom: 0;
+}
+
+#block-views-block-videos-block-3 {
+  padding-top: 32px;
+}
+
+
+#block-views-block-disciplinas-block-1 .sec-title,
+#block-views-block-clubes-y-actividades-block-1 .sec-title,
+#block-views-block-beneficios-de-estudiantes-block-1 .sec-title {
+  padding-bottom: 60px;
+}
+
+#block-views-block-disciplinas-block-1 .subtitle {
+  font-size: 36px;
+}
+
+.otra-info {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 16px;
+}
+
+.otra-info .views-field-field-informacion-adicional {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#block-views-block-vum-block-4 .views-field-title {
+  max-width: 380px;
+  font-size: 34px;
+}
+
+#block-views-block-videos-block-4 {
+  padding-top: 24px;
+}
+
+#block-views-block-equipos-y-profesores-block-1 .sec-title,
+#block-views-block-equipos-y-profesores-block-2 .sec-title {
+  padding-bottom: 80px;
+}
+
+.view-equipos-y-profesores .views-row {
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.view-equipos-y-profesores .views-field-field-image img {
+  border-radius: 100%;
+}
+
+.view-equipos-y-profesores .views-field-field-image {
+  margin-bottom: 1.5em;
+}
+
+.view-equipos-y-profesores .views-field-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--letra-blue);
+  margin-bottom: .5em;
+}
+
+.view-equipos-y-profesores .views-field-field-descripcion {
+  font-size: 18px;
+  color: #6F7CB2;
+}
+
+.vum-redes-sociales h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #091133;
+  margin-top: 0;
+  padding-bottom: 80px;
+}
+
+.vum-redes-sociales ul.menu li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.vum-redes-sociales ul.menu li .link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 100%;
+
+  font-size: 11rem;
+  width: 240px;
+  height: 240px;
+}
+
+.vum-redes-sociales ul.menu li .link-container a {
+  color: var(--letra-blue);
+  transition: all .6s ease-in-out;
+}
+
+.vum-redes-sociales ul.menu li .link-container a:hover {
+  color: var(--vum-color);
+}
+
+@media (min-width: 992px) {
+  .vum-redes-sociales ul.menu li .link-container {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .vum-redes-sociales ul.menu li .link-container {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+/*************FIN VIDA UNIVERSITARIA***********/
+
+
+/***********PAGE TAXONOMY TERM*****************/
+.view-taxonomy-term .view-content {
+  margin-top: 40px;
+}
+
+.view-taxonomy-term .feed-icons {
+  display: none;
+}
+
+.node--type-actividades.node--view-mode-listado-taxonomy-term h3 {
+  margin-top: 0px;
+}
+
+.node--type-actividades.node--view-mode-teaser .news {
+  padding: 0px;
+}
+
+/**********ENDPAGE TAXONOMY TERM***************/
+
+
+/********************SEARH**********************/
+.view-busqueda .news-pagination {
+  padding-top: 0px;
+}
+
+.message-items-per-pages .news-pagination {
+  padding-top: 50px;
+}
+
+.path-search .search-form .search-help-link {
+  display: none;
+}
+
+.view-busqueda .news-padding {
+  width: 100%;
+}
+
+.view-busqueda .search-result__title {
+  margin-top: 0px;
+}
+
+.view-busqueda ol.search-results {
+  margin: 0px;
+  padding: 0px;
+}
+
+.view-busqueda ol.search-results li {
+  margin-left: 0px;
+}
+
+.view-busqueda > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #091133;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.view-busqueda .views-exposed-form {
+  max-width: 1140px;
+  margin: 30px auto 30px auto;
+  display: inline-block;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 5px 20px;
+  position: relative;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.path-buscar .views-exposed-form .form--inline {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.view-busqueda .views-exposed-form .form--inline .form-item-palabras-claves{
+  width: 75%;
+}
+#cssmenu .region-buscar .views-exposed-form{
+  padding: 0px 25px;
+}
+#cssmenu .region-buscar .views-exposed-form .form--inline .form-item-palabras-claves,
+#cssmenu .region-buscar .views-exposed-form .form--inline .form-item-palabras-claves input{
+ width: 100% !important;
+ margin-top: 0.3em;
+ margin-bottom: 0.3em;
+}
+.views-exposed-form .form--inline{
+  position: relative;
+}
+.views-exposed-form .form--inline .form-item-palabras-claves input.form-text{
+  width: 72%;
+  box-shadow: none;
+  background: #eee;
+  color: var(--letra-blue);
+  padding: 15px 20px 15px 15px;
+  border-radius: 3px;
+  height: 56px;
+  border: 2px solid #eee;
+}
+
+.view-busqueda .views-exposed-form .form--inline input.form-actions {
+  max-width: 280px;
+  width: 100%;
+  height: 54px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  position: unset;
+  z-index: 10;
+}
+
+.view-busqueda .views-exposed-form .form-wrapper .form-type-search {
+  width: 100%;
+}
+
+.view-busqueda .views-exposed-form .form-wrapper .form-type-search input {
+  width: 100%;
+  box-shadow: none;
+  background: #eee;
+  color: var(--letra-blue);
+  padding: 15px 20px 15px 15px;
+  border-radius: 3px;
+  height: 56px;
+  border: 2px solid #eee;
+}
+
+.view-busqueda .views-exposed-form .form-wrapper .form-type-search input.error {
+  border: 2px solid red;
+}
+
+.view-busqueda .views-exposed-form .form-wrapper .form-type-search label {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .path-search .search-form .form-wrapper .form-type-search {
+    width: 68%;
+  }
+
+  .path-search .search-form .form-wrapper input[type="submit"] {
+    margin-left: auto;
+  }
+
+  .path-search .search-form .form-wrapper .form-type-search label {
+    width: 36%;
+  }
+
+  .path-search .search-form .form-wrapper .form-type-search input {
+    width: 63%;
+  }
+}
+
+.pager ul li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.pager ul li.pager__item--ellipsis {
+  display: none;
+}
+
+.footer-listado {
+  margin-right: 0px;
+}
+
+/***************END SEARCH*********************/
+
+
+/****************CORRIGIENDO DETALLES******************/
+.content-list li {
+  font-size: 16px;
+  color: #091133;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: left;
+  letter-spacing: 1px;
+  transition: all .6s ease-in-out;
+  text-transform: uppercase;
+}
+
+.dep-list li {
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+}
+
+.pgrad-list li {
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+#ofertas-postgrados .views-row .views-field-title {
+  color: #6F7CB2;
+  font-size: 22px;
+  transition: all .6s ease-in-out;
+}
+
+#ofertas-postgrados .views-row .views-field-name {
+  color: #6F7CB2;
+  font-size: 22px;
+  transition: all .6s ease-in-out;
+}
+
+.style-page-purple .view-cursos-avanzados-biomedicas .view-content .g-card,
+.style-page-purple .view-ofertas-de-postgrado-facultades .view-content .g-card {
+  font-weight: bold;
+  color: #091133;
+  font-size: 23px;
+  transition: all .6s ease-in-out;
+}
+
+.view-especialidades-biomedicas .g-card,
+.view-especialidades-biomedicas .g-card a,
+.view-ofertas-de-postgrado-facultades .g-card,
+.view-ofertas-de-postgrado-facultades .g-card a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #A2ABB7;
+  cursor: pointer;
+  transition: all .6s ease-in-out;
+}
+
+.view-especialidades-biomedicas .g-card:hover a {
+  color: #fff;
+}
+
+.view-postgrado .g-card {
+  color: #091133;
+  font-weight: bold;
+}
+
+.view-diplomas .dep-list .views-field-name .field-content {
+  display: flex;
+  padding-top: 36px;
+}
+
+.view-diplomas .dep-list .views-field-name .field-content div {
+  padding-left: 2.5rem;
+}
+
+.node-234 ul.sf-menu .sf-depth-1 ul li a:hover,
+.node-234 ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--vum-color) !important;
+}

@@ -1,0 +1,4070 @@
+#toolbar-administration #toolbar-bar {
+  z-index: 10000
+}
+
+body.toolbar-tray-open .navbar-fixed-top {
+  top: 70px;
+}
+
+.page-node-type-page ul.sf-menu a.sf-depth-1,
+.path-listado-autoridades ul.sf-menu a.sf-depth-1,
+.page-node-type-centros ul.sf-menu a.sf-depth-1 {
+  color: #004d91;
+}
+
+/*Header*/
+header {
+  padding: 0px;
+}
+
+.redes-idioma {
+  /*width: 42%;*/
+  display: flex;
+  align-items: center;
+}
+
+.idioma {
+  margin-right: 1rem;
+  margin-left: 25px;
+}
+
+.buscar {
+  margin-left: 20px;
+}
+
+#search-block-form {
+  position: relative;
+}
+
+.fondo-blanco {
+  background-color: #ffffff;
+}
+
+/*Buscador*/
+.region-buscar #views-exposed-form-busqueda-page-1 .form-actions input {
+  display: none;
+}
+
+.region-buscar #views-exposed-form-busqueda-page-1 .form-actions {
+  background-image: url("../images/search.png");
+  font-size: 16px !important;
+  color: #AAAAAD;
+  font: normal normal normal 14px/1 FontAwesome;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.region-buscar #views-exposed-form-busqueda-page-1 .form-item-palabras-claves input.form-text {
+  width: 265px;
+  height: 40px;
+  /*background: linear-gradient(270.92deg, #EEEEEE -10.05%, #FFFFFF 107%);*/
+  box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  border: none;
+  padding: 15px 20px 15px 40px;
+  color: #C6C7CD;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: #EEEEEE;
+}
+.region-buscar #views-exposed-form-busqueda-page-1 .form-item-palabras-claves label{
+  display: none;
+}
+
+.news-padding {
+  width: 100%;
+}
+
+#views-exposed-form-busqueda-page-1 .form-item-palabras-claves input.form-text:focus {
+  /*background-color: #ffffff;*/
+  color: #091133;
+}
+
+.region-logos-initium .field--name-body p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.region-logos-initium .field--name-body p img:first-child{
+  width: auto;
+  height: 100px;
+}
+.region-logos-initium .field--name-body p img:last-child{
+  width: 400px;
+  height: auto;
+}
+
+/*End buscador*/
+.buscar-resp {
+  background-color: #ffffff;
+}
+
+.buscar-resp .form-search {
+  width: 100%;
+}
+
+.idioma ul.links li {
+  margin: 5px 0px;
+}
+
+.redes-home {
+  margin-left: auto;
+}
+
+#block-alternadordeidioma .links .es a:hover::after,
+#block-alternadordeidioma .links .en a:hover::after {
+  opacity: 1;
+}
+
+#block-alternadordeidioma .links li a {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all .6s ease-in-out;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 10px;
+  text-align: center;
+  color: rgba(9, 17, 51, 0.28);
+  font-weight: 600;
+}
+
+#block-alternadordeidioma .links li.is-active a,
+#block-alternadordeidioma .links li:hover a {
+  color: #091133;
+}
+
+.search-block-form .form-actions input {
+  display: none;
+}
+
+#block-marcadelsitio .site-logo-resp img {
+  width: 150px;
+}
+
+/*End header*/
+/*menu*/
+@media (min-width: 1025px) and  (max-width: 1200px) {
+  .region-imgpostgrado {
+    /*position: absolute;*/
+    /*bottom: -30.4rem;*/
+    transform: translateY(24%);
+  }
+}
+
+@media (min-width: 1200px) {
+  /*.con-bottom.mensaje {*/
+  /*  margin-left: 15px;*/
+  /*}*/
+  ul.sf-menu a,
+  span.sf-depth-1.nolink {
+    letter-spacing: 0px !important;
+  }
+
+  .region-imgpostgrado {
+    /*position: absolute;*/
+    /*bottom: -30.4rem;*/
+    transform: translateY(24%);
+  }
+}
+
+ul.sf-menu a {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  color: #AAAAAD;
+}
+
+span.sf-depth-1.nolink {
+  color: #004d91;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+}
+
+
+span.sf-depth-1.nolink:focus,
+span.sf-depth-1.nolink:hover {
+  color: #AAAAAD;
+  background: transparent !important;
+}
+
+#superfish-main {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+  padding: 0px;
+}
+
+@media (max-width: 1219px) {
+  #superfish-main li {
+    margin-right: 9px;
+  }
+}
+
+@media (min-width: 1220px) {
+  #superfish-main li {
+    /*margin-right: 12px;*/
+    margin: 0 auto;
+  }
+
+  #superfish-main li:first-child {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .region-buscar #views-exposed-form-busqueda-page-1 .form-actions {
+    top: 3px;
+  }
+
+  #block-imagendecarreras {
+    display: none;
+  }
+
+  .view-tecnituras ul.tech-list .views-row {
+    margin-bottom: 1rem;
+  }
+
+  .view-preuniversitarios .views-field-field-image img {
+    width: 100%;
+    clip-path: none;
+  }
+
+  .redes-idioma,
+  #superfish-main {
+    display: none !important;
+  }
+
+  .cssmenu-esc {
+    display: none !important;
+  }
+
+  .navbar-main {
+    height: 80px;
+  }
+
+  .button {
+    top: 22px;
+  }
+
+  .region-menu {
+    background-color: #ffffff !important;
+  }
+
+  .carousel-inner {
+    margin: 50px 0px 0px !important;
+  }
+}
+
+@media (max-width: 445px) {
+  .owl-carousel-centros button.slick-next,
+  .owl-carousel-biblio button.slick-next,
+  .owl-carousel-profesores button.slick-next,
+  .owl-carousel-visitante button.slick-next,
+  #carousel-gallery button.slick-next {
+    right: 30% !important;
+  }
+
+  .owl-carousel-centros button.slick-prev,
+  .owl-carousel-biblio button.slick-prev,
+  .owl-carousel-profesores button.slick-prev,
+  .owl-carousel-visitante button.slick-prev,
+  #carousel-gallery button.slick-prev {
+    right: 60% !important;
+  }
+}
+
+.cssmenu-resp .nav-small {
+  display: none;
+}
+
+.block-superfish .sf-accordion-toggle a {
+  display: none !important;
+}
+
+#superfish-main li.sfHover ul,
+.sf-menu li.sfHover ul,
+#superfish-main li.menuparent > ul,
+.sf-menu li.menuparent > ul {
+  /*margin-top: 0.6rem;*/
+  background-color: #FFFFFF;
+  width: 22em !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.sf-menu li.sfHover ul li a:hover,
+.sf-menu li.sfHover ul li a:active,
+.sf-menu li.sfHover ul li a:focus,
+.sf-menu li.sfHover ul li a.is-active,
+.sf-menu li.menuparent > ul li a:hover,
+.sf-menu li.menuparent > ul li a:active,
+.sf-menu li.menuparent > ul li a:focus,
+.sf-menu li.menuparent > ul li a.is-active {
+  color: #004D91;
+}
+
+/*Para los hover del menu*/
+.style-page-greenyellow ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.style-page-greenyellow ul.sf-menu .sf-depth-1 ul li a:active,
+.style-page-greenyellow ul.sf-menu .sf-depth-1 ul li a:focus,
+.style-page-greenyellow ul.sf-menu .sf-depth-1 ul li a.is-active,
+.path-facultad-de-comunicacion ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-facultad-de-comunicacion ul.sf-menu .sf-depth-1 ul li a:active,
+.path-facultad-de-comunicacion ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-facultad-de-comunicacion ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fcom-color) !important;
+}
+
+.path-facultad-de-ingenieria ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-facultad-de-ingenieria ul.sf-menu .sf-depth-1 ul li a:active,
+.path-facultad-de-ingenieria ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-facultad-de-ingenieria ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fium-color) !important;
+}
+
+.path-ciencias-biomedicas ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-ciencias-biomedicas ul.sf-menu .sf-depth-1 ul li a:active,
+.path-ciencias-biomedicas ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-ciencias-biomedicas ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--biomedica-color) !important;
+}
+
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu .sf-depth-1 ul li a:active,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fcee-color) !important;
+}
+
+.path-facultad-de-derecho ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-facultad-de-derecho ul.sf-menu .sf-depth-1 ul li a:active,
+.path-facultad-de-derecho ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-facultad-de-derecho ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--derecho-color) !important;
+}
+
+.path-facultad-de-humanidades-y-educacion ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu .sf-depth-1 ul li a:active,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fhum-color) !important;
+}
+
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu .sf-depth-1 ul li a:active,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu .sf-depth-1 ul li a:focus,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--umpe-color) !important;
+}
+
+.style-page-initium ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.style-page-initium ul.sf-menu .sf-depth-1 ul li a:active,
+.style-page-initium ul.sf-menu .sf-depth-1 ul li a:focus,
+.style-page-initium ul.sf-menu .sf-depth-1 ul li a.is-active,
+.node-53 ul.sf-menu .sf-depth-1 ul li a.sf-depth-2:hover,
+.node-53 ul.sf-menu .sf-depth-1 ul li a:active,
+.node-53 ul.sf-menu .sf-depth-1 ul li a:focus,
+.node-53 ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--vum-color) !important;
+}
+
+/*End para los hover del menu*/
+#superfish-main li.sfHover ul li a,
+.sf-menu li.sfHover ul li a,
+#superfish-main li.menuparent > ul li a,
+.sf-menu li.menuparent > ul li a {
+  font-size: 14px !important;
+  transition: 0.6s all ease-in-out !important;
+  /*font-weight: bold;*/
+  display: block;
+  padding: 10px;
+  margin-right: 0px;
+  clear: both;
+  white-space: pre-wrap;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#superfish-main li.menuparent:after,
+.sf-menu li.menuparent:after {
+  font-family: "FontAwesome";
+  text-decoration: none;
+  content: '\f0d7';
+  position: absolute;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  font-size: 14px;
+  margin-left: 14px;
+  top: 16px;
+  right: -19px;
+  color: #004d91;
+}
+
+.navbar-main {
+  background-color: #FFFFFF;
+}
+
+#superfish-main li.menuparent:hover:after,
+.sf-menu li.menuparent:hover:after {
+  transform: rotate(180deg);
+}
+
+#superfish-main .sf-sub-indicator,
+.sf-menu .sf-sub-indicator {
+  display: none;
+}
+
+#block-navegacionprincipal {
+  width: 44%;
+}
+
+.sf-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*End menu*/
+/*Enlaces debajo del slider*/
+#block-enlacesanclados ul.menu .menu-item,
+#block-enlaceancladosfder ul.menu .menu-item,
+#block-enlaceancladosfccb ul.menu .menu-item,
+#block-enlaceancladosmarketing ul.menu .menu-item,
+#block-enlaceancladosing ul.menu .menu-item,
+#block-enlacesancladosfcee ul.menu .menu-item,
+#block-enlacesancladosfcom ul.menu .menu-item,
+#block-enlacesancladosfhumye ul.menu .menu-item,
+#block-enlacesancladosinternacional ul.menu .menu-item,
+#block-enlacesancladosinternational ul.menu .menu-item {
+  width: 197px;
+  height: 88px;
+  background: #EEEEEE;
+  border-radius: 5px;
+  margin: 0px 3px;
+  float: left;
+  padding-top: 0px;
+}
+
+#block-enlacesanclados ul.menu .menu-item a,
+#block-enlaceancladosfder ul.menu .menu-item a,
+#block-enlaceancladosfccb ul.menu .menu-item a,
+#block-enlaceancladosmarketing ul.menu .menu-item a,
+#block-enlaceancladosing ul.menu .menu-item a,
+#block-enlacesancladosfcee ul.menu .menu-item a,
+#block-enlacesancladosfcom ul.menu .menu-item a,
+#block-enlacesancladosfhumye ul.menu .menu-item a,
+#block-enlacesancladosinternacional ul.menu .menu-item a,
+#block-enlacesancladosinternational ul.menu .menu-item a {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#block-enlacesanclados ul.menu .menu-item:hover a,
+#block-enlaceancladosmarketing ul.menu .menu-item:hover a,
+#block-enlacesancladosinternacional ul.menu .menu-item:hover a,
+#block-enlacesancladosinternational ul.menu .menu-item:hover a {
+  background: #004d91 !important;
+  color: #fff;
+}
+
+#block-enlaceancladosfder ul.menu .menu-item:hover a {
+  background: var(--derecho-color) !important;
+  color: #fff;
+}
+
+#block-enlacesancladosfcom ul.menu .menu-item:hover a {
+  background: var(--fcom-color) !important;
+  color: #fff;
+}
+
+#block-enlacesancladosfhumye ul.menu .menu-item:hover a {
+  background: var(--fhum-color) !important;
+  color: #fff;
+}
+
+#block-enlaceancladosfccb ul.menu .menu-item:hover a {
+  background: var(--biomedica-color) !important;
+  color: #fff;
+}
+
+.style-page-orange #block-enlacesancladosfcee ul.menu .menu-item:hover a {
+  background: #DF5900 !important;
+  color: #fff;
+}
+
+.style-page-violet #block-enlaceancladosing ul.menu .menu-item:hover a {
+  background: var(--fium-color) !important;
+  color: #fff;
+}
+
+.style-page-red #block-enlaceancladosfder ul.menu .menu-item:hover a {
+  background: var(--derecho-color) !important;
+  color: #fff;
+}
+
+.style-page-red #block-enlaceancladosfccb ul.menu .menu-item:hover a {
+  background: var(--biomedica-color) !important;
+  color: #fff;
+}
+
+#block-enlacesanclados ul.nav a,
+#block-enlaceancladosfder ul.nav a,
+#block-enlaceancladosfccb ul.nav a,
+#block-enlaceancladosmarketing ul.nav a,
+#block-enlaceancladosing ul.nav a,
+#block-enlacesancladosfcee ul.nav a,
+#block-enlacesancladosfcom ul.nav a,
+#block-enlacesancladosfhumye ul.nav a,
+#block-enlacesancladosinternacional ul.nav a,
+#block-enlacesancladosinternational ul.nav a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #091133;
+  transition: 0.6s all ease;
+}
+
+#block-enlacesanclados ul.nav,
+#block-enlaceancladosfder ul.nav,
+#block-enlaceancladosfccb ul.nav,
+#block-enlaceancladosmarketing ul.nav,
+#block-enlaceancladosing ul.nav,
+#block-enlacesancladosfcee ul.nav,
+#block-enlacesancladosfcom ul.nav,
+#block-enlacesancladosfhumye ul.nav,
+#block-enlacesancladosinternacional ul.nav,
+#block-enlacesancladosinternational ul.nav {
+  background: transparent;
+  position: absolute;
+  z-index: 1000;
+  bottom: -65px;
+  padding: 40px 0px;
+}
+
+#myCarousel .carousel-inner {
+  margin: 0px;
+}
+
+/*Seccion tecnitures*/
+.view-tecnituras ul.tech-list:first-child .tech-card .views-field-title {
+  width: 50%;
+}
+
+.view-tecnituras ul.tech-list:nth-child(2) .tech-card .views-field-title {
+  width: 50%;
+}
+
+.view-tecnituras ul.tech-list:last-child .tech-card .views-field-title {
+  width: 92%;
+}
+
+.carousel-item .views-field-field-image img {
+  width: 100%;
+}
+
+/*Postgrado*/
+#block-views-block-postgrado-block-2 .content-list li {
+  display: flex;
+  align-items: center;
+}
+
+/*.pgrad-section {*/
+/*  padding-bottom: 140px;*/
+/*}*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .region-imgpostgrado {
+    /*position: absolute;*/
+    /*bottom: -34.6rem;*/
+    transform: translateY(40%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .region-imgpostgrado {
+    /*position: absolute;*/
+    /*bottom: -30.8rem;*/
+    transform: translateY(20%);
+  }
+}
+
+#block-enlacesanclados {
+  position: relative;
+}
+
+/*Actividades*/
+.des {
+  display: unset;
+  border-top: 0px;
+  padding-top: 0px;
+}
+
+.des .views-field-field-descripcion {
+  border-top: 1px solid #CDD1D4;
+  padding-top: 15px;
+}
+
+.owl-carousel-actividades button.slick-prev {
+  position: absolute;
+  bottom: -45px;
+  right: 50%;
+  z-index: 50;
+}
+
+.owl-carousel-actividades button.slick-next {
+  position: absolute;
+  right: 43%;
+  bottom: -45px;
+}
+
+/*fin*/
+
+/*Novedades*/
+.region-ampliada .view-novedades .views-field-field-image,
+.region-ampliada .view-novedades .views-field-field-image .field-content {
+  height: 100%;
+}
+
+.news-img {
+  overflow: hidden;
+}
+
+.region-novedades .view-novedades a .news-overlay .descripcion {
+  visibility: hidden;
+  transition: all .5s ease;
+}
+
+.region-novedades .view-novedades a:hover .news-overlay .descripcion {
+  visibility: visible;
+}
+
+/*fin*/
+/*Preuniversitarios*/
+
+.menu--preuniversitarios ul {
+  margin-left: 0px;
+}
+
+.view-preuniversitarios .rec-circle a {
+  color: #fff;
+}
+
+.view-preuniversitarios .rec-circle a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 991px) {
+  .view-preuniversitarios .rec-circle {
+    top: -61rem;
+  }
+
+  .preuniversitarios-menu {
+    margin-top: 40%;
+  }
+
+  .recption-section .rec-content {
+    padding-bottom: 30px;
+  }
+}
+
+.view-preuniversitarios .views-field-field-image img {
+  height: 56rem;
+}
+
+@media (min-width: 1200px) {
+  .view-preuniversitarios {
+    position: relative;
+  }
+
+  .cssmenu-resp {
+    display: none !important;
+  }
+
+  .view-preuniversitarios .rec-circle {
+    top: 17rem;
+    left: -30px;
+  }
+
+  .recption-section .rec-content {
+    padding-bottom: 0px;
+  }
+
+  .preuniversitarios-menu {
+    margin-top: 0px;
+  }
+}
+
+/*fin*/
+
+/*IEEM*/
+.view-ieem .views-row:nth-child(1) .s-card {
+  border-color: #5ebfba;
+}
+
+.view-ieem .views-row:nth-child(2) .s-card {
+  border-color: #afbe5c;
+}
+
+.view-ieem .views-row:nth-child(3) .s-card {
+  border-color: #0088cb;
+}
+
+.view-ieem .views-row:nth-child(4) .s-card {
+  border-color: #008b48;
+}
+
+.view-ieem .views-row:nth-child(5) .s-card {
+  border-color: #f7a70e;
+}
+
+.view-ieem .views-row:nth-child(6) .s-card {
+  border-color: #b7282b;
+}
+
+/*fin*/
+
+/*Centros*/
+.view-centros .slider-text .descripcion .field-content {
+  display: flex;
+  justify-content: center;
+}
+
+.owl-carousel-centros button.slick-prev,
+.owl-carousel-biblio button.slick-prev,
+.owl-carousel-profesores button.slick-prev,
+.owl-carousel-visitante button.slick-prev,
+#carousel-gallery button.slick-prev {
+  position: absolute;
+  bottom: -10%;
+  right: 55%;
+  z-index: 50;
+}
+
+
+.owl-carousel-centros button.slick-next,
+.owl-carousel-biblio button.slick-next,
+.owl-carousel-profesores button.slick-next,
+.owl-carousel-visitante button.slick-next,
+#carousel-gallery button.slick-next {
+  position: absolute;
+  right: 35%;
+  bottom: -10%;
+}
+
+.slider-pro button.slick-prev, .slider-pro button.slick-next,
+.owl-carousel-visitante button.slick-prev, .owl-carousel-visitante button.slick-next {
+  bottom: 35px;
+}
+
+#carousel-gallery button.slick-prev, #carousel-gallery button.slick-next {
+  bottom: -50px;
+}
+
+#carousel .slick-prev,
+#carousel .slick-next,
+#carousel-biblioteca .slick-prev,
+#carousel-biblioteca .slick-next,
+#carousel-profesores .slick-prev,
+#carousel-profesores .slick-next,
+.slider-pro .slick-prev,
+.slider-pro .slick-next,
+#carousel-gallery .slick-prev,
+#carousel-gallery .slick-next,
+.owl-carousel-visitante .slick-prev,
+.owl-carousel-visitante .slick-next {
+  margin: 10px 5px 0;
+  background: rgba(255, 255, 255, 1) !important;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+#cal .slick-prev,
+#cal .slick-next,
+.slider-pro .slick-prev,
+.slider-pro .slick-next,
+#carousel-gallery .slick-prev,
+#carousel-gallery .slick-next,
+.owl-carousel-visitante .slick-prev,
+.owl-carousel-visitante .slick-next {
+  background: #000 !important;
+  margin: 10px 5px 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  color: #ffffff;
+}
+
+/*fin*/
+
+/*Form contacto*/
+#contact-message-feedback-form label {
+  display: none;
+}
+
+#contact-message-feedback-form .form-item {
+  margin: 0px;
+}
+
+.con-btn button {
+  width: 250px;
+  height: 54px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.con-btn button img {
+  margin-left: 3%;
+}
+
+.con-btn .button::before {
+  transition: all .3s ease;
+  position: unset;
+  top: 16px;
+  right: 20px;
+  display: block;
+  height: 0;
+  width: 0;
+  background: transparent;
+  content: '';
+}
+
+.con-btn .button::after {
+  position: unset;
+  top: 22px;
+  right: 20px;
+  display: block;
+  height: 0;
+  width: 0;
+  border-bottom: transparent;
+  content: '';
+}
+
+@media (max-width: 992px) {
+  #contact-message-feedback-form .row {
+    display: block;
+  }
+
+  #block-nombrefacultadheaderfcee {
+    /*display: none;*/
+  }
+
+  #contact-message-feedback-form .form-item {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*fin*/
+/*.social-list li {*/
+/*  margin: 24px 15px;*/
+/*}*/
+
+/*footer*/
+footer p {
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    margin-bottom: 0px !important;
+  }
+
+  .foot-inner {
+    justify-content: space-between !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .copyright {
+    margin-bottom: 20px;
+  }
+
+  .copyright, .foot-social-list, .foot-inner {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/*fin*/
+
+/*Slider Centros*/
+.view-centros .slick-slide {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+@media (max-width: 577px) {
+  .slick-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .view-tecnituras ul.tech-list:first-child .tech-card .views-field-title,
+  .view-tecnituras ul.tech-list:nth-child(2) .tech-card .views-field-title {
+    width: 100%;
+  }
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.view-actividades .slick-slide {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li button {
+  width: 33px !important;
+  height: 6px !important;
+  border-radius: 3px;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+  background: #fff !important;
+  transition: all .6s ease-in-out;
+  font-size: 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background: #004D91 !important;
+  width: 76px !important;
+}
+
+/*fin*/
+/*Menu responsive*/
+#superfish-main-accordion li.menuparent .sf-sub-indicator {
+  overflow: unset;
+}
+
+#superfish-main-accordion li.menuparent.sf-expanded .sf-sub-indicator::before {
+  width: 0px;
+}
+
+#superfish-main-accordion li {
+  border-top: 1px solid #f6f6f6;
+}
+
+.region-menu {
+  background-color: #eee;
+  width: 100%;
+}
+
+#superfish-main-accordion span.menuparent:hover,
+#superfish-main-accordion a:hover {
+  background-color: #eee !important;
+}
+
+#superfish-main-accordion span.menuparent:hover span.sf-sub-indicator {
+  border-left: 1px solid #FFFFFF;
+}
+
+#superfish-main-accordion span.sf-sub-indicator {
+  padding: 25px;
+  border-left: 1px solid #eee;
+  right: 0;
+}
+
+#superfish-main-accordion li.menuparent.sf-expanded span.menuparent {
+  background-color: #eee;
+}
+
+#superfish-main-accordion li.menuparent.sf-expanded span.sf-sub-indicator {
+  background-color: #FFFFFF !important;
+}
+
+#superfish-main-accordion span.menuparent,
+#superfish-main-accordion a {
+  transition: 0.3s all ease-out;
+  -webkit-transition: 0.3s all ease-out;
+  -moz-transition: 0.3s all ease-out;
+  -ms-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+}
+
+#superfish-main-accordion li.menuparent .sf-sub-indicator::after {
+  position: absolute;
+  top: 23px;
+  left: 26px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #181924;
+  content: '';
+}
+
+#superfish-main-accordion li.menuparent .sf-sub-indicator::before {
+  position: absolute;
+  top: 20px;
+  right: 19px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #181924;
+  content: '';
+}
+
+/*End menu responsive*/
+
+.style-page-orange #block-enlacesanclados ul.menu li.active {
+  background: #DF5900 !important;
+}
+
+#block-enlacesanclados ul.menu li.active a {
+  /*color: #fff !important;*/
+}
+
+/* Carreras de grado*/
+.region-carreras {
+  position: relative;
+}
+
+#block-imagendecarreras {
+  position: absolute;
+  top: 69px;
+  right: -4%;
+}
+
+#block-imagenpostgrado p {
+  margin: 0px;
+}
+
+#block-imagendecarreras .field--name-body img {
+  width: 344px;
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .view-preuniversitarios .rec-circle {
+    top: -6rem;
+    left: 46rem;
+  }
+}
+
+.rec-list ul li {
+  width: 329px;
+  height: 65px;
+  background: #004D91;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px;
+  transition: all .6s ease-in-out;
+  border: none;
+}
+
+.rec-img {
+  clip-path: none;
+}
+
+.view-preuniversitarios .views-field-field-image .field-content {
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%) !important;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .view-preuniversitarios .views-field-field-image .field-content {
+    clip-path: none !important;
+  }
+}
+
+/*Seccion de carreras en fcee*/
+.view-carreras-de-grado-fcee .o-grad-inner .views-row .views-field-name a {
+  color: #A2ABB7;
+}
+
+.view-carreras-de-grado-fcee .o-grad-inner .views-row .g-card:hover .views-field-name a {
+  color: #fff;
+}
+
+.layout-container-fcee #block-menucarrerasdegradofcee ul.menu .g-btn {
+  width: 32% !important;
+  text-transform: uppercase;
+
+}
+
+.layout-container-fcee #block-menucarrerasdegradofcee ul.menu .g-btn a {
+  color: #ffffff !important;
+}
+
+#block-views-block-diplomas-fcee-block-1 > .sec-title,
+#block-views-block-dobles-titulaciones-block-1 > .sec-title,
+#block-views-block-formacion-del-estudiante-block-1 > .sec-title {
+  padding-bottom: 0px !important;
+}
+
+.bg-orange1 ul.sf-menu .sf-no-children a.sf-depth-1, .bg-orange1 ul.sf-menu .sf-depth-1 .nolink {
+  color: #ffffff;
+}
+
+.bg-orange1 .nav > li > a:focus, .bg-orange1 .nav > li > a:hover {
+  background-color: transparent;
+}
+
+.bg-orange1 #superfish-main li.menuparent::after {
+  color: #ffffff;
+}
+
+.view-dobles-titulaciones .g-card .views-field-description__value a:hover {
+  background: #f26c13;
+  color: #fff !important;
+}
+
+.view-dobles-titulaciones .g-card .views-field-description__value a {
+  color: #f26c13;
+}
+
+.view-informacion-fcee .views-row .views-field-name a {
+  color: #ffffff;
+}
+
+#block-bloquetimelinedetwittercedei,
+#block-bloquetimelinedetwittercinoi,
+#block-bloquetimelinedetwitterbiblioteca {
+  height: 485px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.path-frontpage .con-link {
+  display: none;
+}
+
+.layout-container-fcee .navbar-collapse {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .menu--menu-carreras-de-grado-fcee ul.menu {
+    flex-direction: column;
+  }
+
+  .layout-container-fcee #block-menucarrerasdegradofcee ul.menu .g-btn {
+    width: 100% !important;
+  }
+
+  .navbar-main {
+    justify-content: flex-start;
+  }
+}
+
+/*Color al menu */
+.style-page-orange .region-menu {
+  background-color: #DF5900;
+}
+
+.style-page-orange .webform-home .con-btn input {
+  background: #DF5900;
+}
+
+/*End Seccion de carreras en fcee*/
+
+/*Facultad de derecho*/
+.cal-actividades {
+  background-color: #f2f4f5;
+}
+
+.cal-actividades .cal-box {
+  background-color: #ffffff;
+  border: none;
+}
+
+.cal-actividades .cal-box .title {
+  border-bottom: 1px solid #cdd1d4;
+}
+
+.cal-actividades .des .views-field-field-descripcion {
+  border-top: none;
+}
+
+.style-page-red .view-informacion-fcee .list-card li:hover {
+  background: var(--fcee-color) !important;
+}
+
+.style-page-red .view-documentos .con-btn a {
+  margin-top: 0px;
+  font-size: 16px !important;
+  color: #ffffff !important;
+  background: var(--derecho-color);
+}
+
+.style-page-red .view-documentos .con-btn .field-content {
+  display: flex;
+  margin-top: 40px;
+  position: relative;
+}
+
+.style-page-red .view-documentos .con-btn .field-content img {
+  align-self: center;
+  position: absolute;
+  right: 0;
+  padding-right: 15px;
+}
+
+.node-66 .social-list li {
+  margin: 15px;
+}
+
+.style-page-red .grad-section {
+  background: url("../images/carreras-grado.png");
+}
+
+.style-page-red .bg-deg {
+  background: url("../images/doble-titulaciones.png");
+}
+
+.style-page-red .perfil-derecho {
+  background: url("../images/diplomas.png");
+}
+
+.style-page-red .ofertas-derecho {
+  background: url("../images/ofertas-posgrados.png");
+}
+
+.style-page-red .info-fcee {
+  background: url("../images/seccion-destacados.png");
+}
+
+.style-page-red .webform-home .con-btn input {
+  background: var(--derecho-color) !important;;
+}
+
+/*End facultad de derecho*/
+/*Facultad de biomedicas*/
+.style-page-purple .red-news .news-overlay {
+  background: linear-gradient(178.62deg, var(--biomedica-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.node-87 .social-list li {
+  margin: 15px;
+}
+
+.style-page-purple .carreras-bio {
+  background: url("../images/carreras-grado.png");
+}
+
+.style-page-purple .diplomas-derecho,
+.style-page-purple .perfil-derecho {
+  background: url("../images/diplomas.png");
+}
+
+.style-page-purple #doble-titulaciones {
+  background: url("../images/doble-titulaciones.png");
+}
+
+.style-page-purple .info-fcee {
+  background: url("../images/seccion-destacados.png");
+}
+
+.style-page-purple .webform-home .con-btn input {
+  background: var(--biomedica-color);
+}
+
+.style-page-greenyellow .webform-home .con-btn input {
+  background: var(--fcom-color);
+}
+
+.style-page-aqua .webform-home .con-btn input {
+  background: var(--fhum-color);
+}
+
+/*End fac biomedicas*/
+/*UMPE*/
+.style-page-blue .contenido-home {
+  background: url("../images/carreras-grado.png");
+}
+
+.style-page-blue .carrerar-umpe {
+  background: url("../images/doble-titulaciones.png");
+}
+
+.style-page-blue .perfil-derecho {
+  background: url("../images/diplomas.png");
+}
+
+.style-page-blue .info-fcee {
+  background: url("../images/seccion-destacados.png");
+}
+
+.style-page-blue .webform-home .con-btn input {
+  background: var(--umpe-color);
+}
+
+/*End UMPE*/
+/*Estilos a los webforms*/
+.webform-home .form-type-textfield .form-text,
+.webform-home .form-type-email .form-email,
+.webform-home .form-tel {
+  width: 100%;
+}
+
+.webform-home input.form-text,
+.webform-home textarea,
+.webform-home .form-email,
+.webform-home .form-tel {
+  height: 47px;
+  width: 100%;
+  border: 1px solid #ECEFEE;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+  padding: 15px;
+  /*text-transform: capitalize;*/
+  /*margin-bottom: 20px;*/
+  transition: all .6s ease-in-out;
+}
+
+.webform-home input.form-text:focus,
+.webform-home textarea:focus,
+.webform-home .form-email:focus,
+.webform-home .form-tel:focus {
+  background: rgba(236, 239, 238, 0.5);
+  border: 1px solid #004786;
+}
+
+.webform-home textarea {
+  height: 238px !important;
+  resize: none;
+}
+
+.webform-home .con-btn input {
+  width: 236px;
+  height: 60px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.webform-home .form-actions {
+  position: relative;
+}
+
+.webform-home .form-actions::after {
+  content: '';
+  display: inline-block;
+  background: url("../images/arrow.png");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 65px;
+}
+
+.webform-home .con-btn {
+  display: flex;
+  align-items: center;
+
+}
+
+.webform-home #edit-sexo--wrapper .fieldset-wrapper #edit-sexo {
+  display: flex;
+}
+
+.webform-home #edit-sexo--wrapper .fieldset-wrapper #edit-sexo .form-item-sexo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.webform-home #edit-sexo--wrapper .fieldset-wrapper #edit-sexo input {
+  margin: 0px;
+}
+
+.webform-home #edit-sexo--wrapper .fieldset-wrapper #edit-sexo label {
+  margin: 0px 1rem;
+}
+
+.webform-home fieldset.fieldgroup legend {
+  border-bottom: 0px;
+}
+
+.webform-home fieldset.fieldgroup label {
+  font-size: 16px;
+  line-height: 30px;
+  color: #5D6970;
+  font-weight: 200;
+}
+
+.webform-home .con-btn img {
+  padding-right: 15px;
+}
+
+/*End Estilos a los webforms*/
+/*Vista de Marketing*/
+.node-153 .bloque-twitter .region-mapa {
+  height: auto;
+  overflow: auto;
+  overflow-y: auto !important;
+}
+
+.view-actividades .views-field-field-enlace {
+  position: relative;
+}
+
+.view-actividades .views-field-field-enlace a::after {
+  content: '';
+  display: inline-block;
+  background: url("../images/arrow-right.png");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 9px;
+  margin-left: 10px;
+}
+
+.view-pasos-para-incribirse .sign-btn {
+  position: relative;
+}
+
+.view-pasos-para-incribirse .sign-btn a::after {
+  content: '';
+  display: inline-block;
+  background: url("../images/arrow-right.png");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 21px;
+  margin-left: 10px;
+  right: 25px;
+}
+
+#block-bloqueparacontactoenelbecas .contact-form input {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+#block-bloqueparacontactoenelbecas .contact-form .sec-title {
+  padding-bottom: 0;
+}
+
+#block-bloqueparacontactoenelbecas .contact-form .js-form-type-select select {
+  width: 100%;
+}
+
+#block-bloqueparacontactoenelbecas .contact-form .form-checkbox,
+#block-bloqueparacontactoenelbecas .contact-form .webform-actions {
+  width: auto;
+}
+
+/*.region-silder #block-enlaceancladosmarketing ul.menu li.active,*/
+/*.region-silder #block-enlaceancladosmarketing ul.menu li.active a {*/
+/*  background: #004D91 !important;*/
+/*  color: #ffffff !important;*/
+/*}*/
+
+.contact-form .con-btn input {
+  width: 236px !important;
+  height: 60px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .form-actions::after {
+  /*content: '';*/
+  display: inline-block;
+  background: url("../images/arrow.png");
+  background-repeat: repeat;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top: 58px;
+}
+
+.contact-form .form-actions {
+  position: relative;
+}
+
+.layout-container-mkting .navbar-list {
+  background-color: #eee;
+
+}
+
+.layout-container-mkting .navbar-list .sf-depth-1 {
+  color: #004d91 !important;
+}
+
+.layout-container-mkting #superfish-main li.menuparent::after {
+  color: #004d91 !important;
+}
+
+.menu--redes-derecha ul.menu li {
+  margin: 13px;
+  padding-top: 0rem;
+}
+
+.menu--redes-derecha .post-share,
+.menu--redes-header .post-share {
+  font-size: 25px;
+  color: #337ab7;
+  transition: all 0.6s ease-in-out;
+}
+
+.social-list .post-share:hover,
+.menu--redes-header .post-share:hover {
+  color: #AAAAAD;
+}
+
+.social-list ul.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;
+}
+
+/*End Vista de Marketing*/
+/*Facultad ingenieria*/
+.style-page-violet .region-menu {
+  background: var(--fium-color);
+}
+
+.style-page-violet .news-overlay {
+  background: linear-gradient(178.62deg, var(--fium-color) 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.style-page-violet .list-card li:hover {
+  background: var(--fium-color);
+}
+
+.style-page-violet .g-card:hover {
+  background: var(--fium-color) !important;
+}
+
+.style-page-violet #block-menucarrerasdegradofium ul.menu .g-btn {
+  width: 32%;
+  text-transform: uppercase;
+  background: var(--fium-color);
+}
+
+.style-page-violet #block-menucarrerasdegradofium ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.style-page-violet #ofertas-postgrados .dep-bg .block h2 {
+  text-align: center;
+}
+
+.style-page-violet #ofertas-postgrados .views-row a:hover {
+  color: var(--fium-color);
+}
+
+.style-page-violet .ofertas-derecho {
+  background: url("../images/ofertas-posgrados.png");
+}
+
+.style-page-violet .perfil-derecho {
+  background: url("../images/bacas-bg.png");
+}
+
+.style-page-violet .webform-home .con-btn input {
+  background: var(--fium-color);
+}
+
+.style-page-violet .bg-red ul.sf-menu .sf-depth-1 ul li a:hover,
+.style-page-violet .bg-red ul.sf-menu .sf-depth-1 ul li a:active,
+.style-page-violet .bg-red ul.sf-menu .sf-depth-1 ul li a:focus,
+.style-page-violet .bg-red ul.sf-menu .sf-depth-1 ul li a.is-active {
+  color: var(--fium-color) !important;
+}
+
+.post-share.whatsapp .img-whatsapp {
+  background: url("../images/whatsapp.png") no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.style-page-violet .social-list li {
+  margin: 15px;
+}
+
+.style-page-violet .sf-menu li.menuparent::after {
+  color: #ffffff;
+}
+
+.superfish-main .sf-depth-1 .sf-with-ul {
+  color: #ffffff;
+}
+
+.style-page-violet .sf-depth-1 .sf-with-ul {
+  color: #ffffff !important;
+}
+
+#superfish-menu-fium,
+#superfish-menu-fcee,
+#superfish-menu-fder,
+#superfish-menu-fccb,
+#superfish-menu-umpe {
+  padding-top: 3px;
+}
+
+/*ul.sf-menu a.sf-depth-1,*/
+.style-page-orange ul.sf-menu a.sf-depth-1,
+.style-page-greenyellow ul.sf-menu a.sf-depth-1,
+.style-page-aqua ul.sf-menu a.sf-depth-1,
+.style-page-red ul.sf-menu a.sf-depth-1,
+.style-page-purple ul.sf-menu a.sf-depth-1,
+.style-page-blue ul.sf-menu a.sf-depth-1,
+.style-page-green ul.sf-menu a.sf-depth-1,
+.style-page-green span.sf-depth-1.nolink,
+.style-page-initium ul.sf-menu a.sf-depth-1,
+.style-page-initium span.sf-depth-1.nolink,
+.node-53 ul.sf-menu a.sf-depth-1,
+.node-53 span.sf-depth-1.nolink,
+.path-facultad-de-comunicacion ul.sf-menu a.sf-depth-1,
+.path-facultad-de-ingenieria ul.sf-menu a.sf-depth-1,
+.path-ciencias-biomedicas ul.sf-menu a.sf-depth-1,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu a.sf-depth-1,
+.path-facultad-de-derecho ul.sf-menu a.sf-depth-1,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu a.sf-depth-1,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu a.sf-depth-1,
+.style-page-vum ul.sf-menu a.sf-depth-1,
+.path-facultad-de-comunicacion span.sf-depth-1.nolink,
+.path-facultad-de-ingenieria span.sf-depth-1.nolink,
+.path-ciencias-biomedicas span.sf-depth-1.nolink,
+.path-facultad-de-ciencias-empresariales-y-economia span.sf-depth-1.nolink,
+.path-facultad-de-derecho span.sf-depth-1.nolink,
+.path-facultad-de-humanidades-y-educacion span.sf-depth-1.nolink,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe span.sf-depth-1.nolink,
+.style-page-vum span.sf-depth-1.nolink {
+  color: #ffffff;
+}
+
+.style-page-green #superfish-main li.menuparent::after,
+.style-page-green .sf-menu li.menuparent::after,
+.style-page-initium #superfish-main li.menuparent::after,
+.style-page-initium .sf-menu li.menuparent::after,
+.node-53 #superfish-main li.menuparent::after,
+.node-53 .sf-menu li.menuparent::after {
+  color: #fff;
+}
+
+.path-frontpage ul.sf-menu li.active-trail a,
+.path-user ul.sf-menu a.sf-depth-1,
+.path-frontpage ul.sf-menu a.sf-depth-1,
+.path-buscar ul.sf-menu a.sf-depth-1,
+  /*.path-facultad-de-comunicacion ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-ingenieria ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-ciencias-biomedicas ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-ciencias-empresariales ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-derecho ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-humanidades ul.sf-menu a.sf-depth-1,*/
+  /*.path-facultad-de-umpe ul.sf-menu a.sf-depth-1,*/
+.path-actividades ul.sf-menu a.sf-depth-1,
+.path-noticias ul.sf-menu a.sf-depth-1,
+.path-autoridades ul.sf-menu a.sf-depth-1,
+.path-search ul.sf-menu a.sf-depth-1,
+  /*.style-page-vum ul.sf-menu a.sf-depth-1,*/
+.page-node-type-ieem ul.sf-menu a.sf-depth-1,
+.page-node-type-video ul.sf-menu a.sf-depth-1,
+.style-page-internacional ul.sf-menu a.sf-depth-1,
+.page-node-type-documento ul.sf-menu a.sf-depth-1,
+.page-node-type-actividades ul.sf-menu a.sf-depth-1,
+.page-node-type-noticias ul.sf-menu a.sf-depth-1 {
+  color: #004d91;
+}
+
+.style-page-orange ul.sf-menu a.sf-depth-1,
+.style-page-red ul.sf-menu a.sf-depth-1,
+.style-page-purple ul.sf-menu a.sf-depth-1,
+.style-page-blue ul.sf-menu a.sf-depth-1,
+.style-page-green ul.sf-menu a.sf-depth-1,
+.style-page-violet ul.sf-menu a.sf-depth-1,
+.style-page-greenyellow ul.sf-menu a.sf-depth-1 {
+  color: #fff;
+}
+
+.node-154 ul.sf-menu a.sf-depth-1 {
+  background-color: var(--bg-gray-claro);
+  color: #004d91;
+}
+
+.style-page-orange ul.sf-menu a.sf-depth-1:hover,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--fcee-color);
+  color: #fff;
+}
+
+.style-page-red ul.sf-menu a.sf-depth-1:hover,
+.path-facultad-de-derecho ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--derecho-color);
+  color: #fff;
+}
+
+.style-page-purple ul.sf-menu a.sf-depth-1:hover,
+.path-ciencias-biomedicas ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--biomedica-color);
+  color: #fff;
+}
+
+.style-page-blue ul.sf-menu a.sf-depth-1:hover,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--umpe-color);
+  color: #fff;
+}
+
+.style-page-green ul.sf-menu a.sf-depth-1:hover,
+.style-page-vum ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--vum-color);
+  color: #fff;
+}
+
+.style-page-initium ul.sf-menu a.sf-depth-1:hover,
+.node-53 ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--vum-color);
+  color: #fff;
+}
+
+.style-page-violet ul.sf-menu a.sf-depth-1:hover,
+.path-facultad-de-ingenieria ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--fium-color);
+  color: #fff;
+}
+
+.style-page-greenyellow ul.sf-menu a.sf-depth-1:hover,
+.path-facultad-de-comunicacion ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--fcom-color);
+  color: #fff;
+}
+
+.style-page-aqua ul.sf-menu a.sf-depth-1:hover,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu a.sf-depth-1:hover {
+  background-color: var(--fhum-color);
+  color: #fff;
+}
+
+#superfish-main li.sfHover#main-menu-link-content9784369e-8947-47d5-bd11-9cc3fa9f39ac ul,
+.sf-menu li.sfHover#main-menu-link-content9784369e-8947-47d5-bd11-9cc3fa9f39ac ul,
+#superfish-main li.menuparent#main-menu-link-content9784369e-8947-47d5-bd11-9cc3fa9f39ac:hover ul,
+.sf-menu li.menuparent#main-menu-link-content9784369e-8947-47d5-bd11-9cc3fa9f39ac:hover ul {
+  top: 48px;
+}
+
+#superfish-main li#main-menu-link-content9784369e-8947-47d5-bd11-9cc3fa9f39ac::after {
+  top: 19px;
+}
+
+/*End facultad de ing*/
+/*Seccion de nodo noticias*/
+.noticias .img-nodo img,
+.actividades .img-nodo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.noticias .video-noticia{
+  margin-bottom: 2rem;
+}
+
+.noticias .news-info-profile {
+  display: flex;
+  align-items: center;
+}
+
+.noticias .field--name-field-descripcion ul li,
+.noticias .field--name-field-mas-informacion ul li {
+  font-size: 15px;
+  color: #6a6a6a;
+  line-height: 31px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.noticias .field--name-field-descripcion ul li::before,
+.noticias .field--name-field-mas-informacion ul li::before {
+  border: 2px solid #337ab7;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  position: relative;
+  vertical-align: middle;
+  width: 10px;
+  margin-right: 20px;
+}
+
+.noticias .field--name-field-descripcion blockquote,
+.noticias .field--name-field-mas-informacion blockquote {
+  margin: 150px 0px;
+  text-align: center;
+  border-left: none;
+  position: relative;
+}
+
+.noticias .field--name-field-descripcion blockquote p,
+.noticias .field--name-field-mas-informacion blockquote p {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #1e162d;
+  text-align: center;
+  font-weight: 600;
+}
+
+.noticias .field--name-field-descripcion blockquote::before,
+.noticias .field--name-field-mas-informacion blockquote::before {
+  content: url(../images/comma-left.png);
+  top: -100px;
+  left: 50%;
+  line-height: 1;
+  z-index: 10;
+  position: absolute;
+}
+
+.noticias .field--name-field-descripcion blockquote::after,
+.noticias .field--name-field-mas-informacion blockquote::after {
+  content: url(../images/comma-right.png);
+  bottom: -100px;
+  left: 50%;
+  line-height: 1;
+  z-index: 10;
+  position: absolute;
+}
+
+.noticias .field--name-field-etiqueta a {
+  padding: 7px 20px;
+  width: auto;
+  height: 36px;
+  border-radius: 18px;
+  background: #f3f3f3;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.noticias .news-info-profile .username {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.page-node-type-actividades .sf-menu li.menuparent::after {
+  color: #004d91;
+}
+
+.style-page-orange ul.sf-menu a.sf-with-ul:hover,
+.style-page-red ul.sf-menu a.sf-with-ul:hover,
+.style-page-purple ul.sf-menu a.sf-with-ul:hover,
+.style-page-blue ul.sf-menu a.sf-with-ul:hover,
+.style-page-blue span.sf-depth-1.nolink,
+.style-page-purple span.sf-depth-1.nolink,
+.style-page-red span.sf-depth-1.nolink,
+.style-page-violet span.sf-depth-1.nolink,
+.style-page-orange span.sf-depth-1.nolink,
+.style-page-greenyellow span.sf-depth-1.nolink,
+.style-page-aqua span.sf-depth-1.nolink,
+.path-facultad-de-comunicacion ul.sf-menu a.sf-depth-1,
+.path-facultad-de-ingenieria ul.sf-menu a.sf-depth-1,
+.path-ciencias-biomedicas ul.sf-menu a.sf-depth-1,
+.path-facultad-de-ciencias-empresariales-y-economia ul.sf-menu a.sf-depth-1,
+.path-facultad-de-derecho ul.sf-menu a.sf-depth-1,
+.path-facultad-de-humanidades-y-educacion ul.sf-menu a.sf-depth-1,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe ul.sf-menu a.sf-depth-1,
+.style-page-orange .sf-menu li.menuparent::after,
+.style-page-red .sf-menu li.menuparent::after,
+.style-page-blue .sf-menu li.menuparent::after,
+.style-page-violet .sf-menu li.menuparent::after,
+.style-page-greenyellow .sf-menu li.menuparent::after,
+.style-page-aqua .sf-menu li.menuparent::after,
+.style-page-vum .sf-menu li.menuparent::after,
+.path-facultad-de-comunicacion .sf-menu li.menuparent::after,
+.path-facultad-de-ingenieria .sf-menu li.menuparent::after,
+.path-ciencias-biomedicas .sf-menu li.menuparent::after,
+.path-facultad-de-ciencias-empresariales-y-economia .sf-menu li.menuparent::after,
+.path-facultad-de-derecho .sf-menu li.menuparent::after,
+.path-facultad-de-humanidades-y-educacion .sf-menu li.menuparent::after,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe .sf-menu li.menuparent::after {
+  color: #fff !important;
+}
+
+.redes-lateral {
+  display: none;
+}
+
+.n-img img {
+  width: 100%;
+}
+
+.pager__item.is-active a {
+  z-index: 3;
+  color: #fff !important;
+  cursor: default;
+  background-color: #004D91;
+  border-color: #004D91;
+}
+
+.footer-listado {
+  text-align: center;
+  margin-right: 10rem;
+}
+
+#views-exposed-form-listado-page-1 .form-item-field-year-value,
+#views-exposed-form-listado-page-1 .form-item-field-month-value,
+#views-exposed-form-listado-page-2 .form-item-field-year-value,
+#views-exposed-form-listado-page-2 .form-item-field-month-value {
+  display: none;
+}
+
+.filter-select .view-filters {
+  width: 100%;
+}
+
+#views-exposed-form-listado-page-1 .form--inline,
+#views-exposed-form-listado-page-2 .form--inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#views-exposed-form-listado-page-1 .form-item-field-custom-year,
+#views-exposed-form-listado-page-2 .form-item-field-custom-year {
+  order: 2;
+}
+
+#views-exposed-form-listado-page-1 .form-item-field-custom-month,
+#views-exposed-form-listado-page-2 .form-item-field-custom-month {
+  order: 3;
+}
+
+#views-exposed-form-listado-page-1 .form-item-field-facultades-target-id,
+#views-exposed-form-listado-page-2 .form-item-field-facultades-target-id {
+  order: 4;
+}
+
+#views-exposed-form-listado-page-1 .form-actions,
+#views-exposed-form-listado-page-2 .form-actions {
+  order: 4;
+  position: relative;
+}
+
+.views-exposed-form .form-actions input {
+  width: 236px;
+  height: 54px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  z-index: 0 !important;
+}
+
+.path-buscar .views-exposed-form .form-actions::after{
+  background: none;
+}
+
+.views-exposed-form .form-actions::after {
+  content: '';
+  display: inline-block;
+  background: url("../images/arrow.png");
+  background-repeat: repeat;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 53px;
+}
+
+.views-exposed-form .form-item-field-facultades-target-id select {
+  width: 100%;
+}
+
+.form-item-field-custom-year select,
+.form-item-field-custom-month select,
+.form-item-field-facultades-target-id select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background-image: url(../images/down-arrow.png); /* Add custom arrow */
+  border: 1px solid #eee;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 170px 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+.container-header {
+  height: 90px;
+  display: inline-block;
+}
+
+.imagen-centro .field--name-field-image {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-facultad .views-field-field-image img {
+  height: auto;
+  width: 278px;
+}
+
+.imagen-facultad .field-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  #block-um-branding a.site-logo-resp {
+    display: none;
+  }
+
+  .container-header {
+    height: 153px;
+    display: inline-block;
+  }
+
+
+  #block-um-branding,
+  .um-fac-branding {
+    height: 85px;
+  }
+
+  .imagen-centro,
+  .imagen-vida-universitaria,
+  .informacion-container .imagen {
+    display: none;
+  }
+}
+
+.style-page-violet .cssmenu-red .cssmenu-responsive ul.nav > li a:hover {
+  color: #3f47cc;
+}
+
+#edit-advanced {
+  display: none !important;
+}
+
+/*End nodo noticias*/
+/*INITIUM*/
+.webform-home.webform-initium .con-btn input {
+  background: var(--vum-color);
+}
+
+.videos-initium .titulo-video .field-content {
+  color: var(--letra-blue);
+  font-size: 18px;
+  margin-bottom: 4px;
+  display: block;
+  border-radius: 4px;
+  transition: all .6s ease-in-out;
+}
+
+.videos-initium .row {
+  display: flex;
+}
+
+.videos-initium .titulo-video {
+  align-self: center;
+}
+
+.view-incompany .btn-incompany {
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  color: var(--letra-blue);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#incompany .sec-link {
+  display: flex;
+}
+
+#incompany .sec-link a {
+  color: #091133;
+}
+
+
+#block-views-block-coordinadores-y-docentes-block-1 h2 {
+  text-align: center;
+}
+
+.view-coordinadores-y-docentes .views-row,
+.view-personas .views-row {
+  text-align: center;
+  /*max-height: 360px;*/
+}
+
+.view-coordinadores-y-docentes .views-row .views-field-field-image,
+.view-personas .views-row .views-field-field-image {
+  margin-bottom: 3rem;
+}
+
+.view-coordinadores-y-docentes .views-row .views-field-title,
+.view-personas .views-row .views-field-title {
+  margin-bottom: 1rem;
+}
+
+.view-coordinadores-y-docentes .views-row .views-field-title .field-content,
+.view-personas .views-row .views-field-title .field-content a {
+  color: #004d91;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+
+.view-coordinadores-y-docentes .views-row .views-field-field-descripcion .field-content,
+.view-coordinadores-y-docentes .views-row .views-field-field-cargo-autoridades .field-content,
+.view-personas .views-row .views-field-field-cargo-persona .field-content,
+.view-personas .views-row .views-field-body .field-content {
+  font-size: 18px;
+  color: #5C5C5C;
+  font-weight: 200;
+}
+
+.view-personas .views-row .views-field-field-cargo-persona .field-content {
+  text-align: center;
+}
+
+.region-content {
+  padding-top: 3rem;
+}
+.page-node-type-centros .region-content{
+  padding-top: 0rem !important;
+}
+
+.view-personas .views-row .views-field-body .field-content {
+  margin-top: 1rem;
+}
+
+.btn-emprendimientos .btn-incompany {
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  color: var(--letra-blue);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.view-emprendimientos .views-field-title {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--letra-blue);
+  text-align: center;
+}
+
+.view-emprendimientos .sec-link {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.view-emprendimientos .btn-emprendimientos {
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  color: var(--letra-blue);
+  padding: 1rem;
+}
+
+.view-emprendimientos .btn-emprendimientos a {
+  color: var(--letra-blue);
+}
+
+.emprendedores {
+  background: url("../images/doble-titulaciones.png");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.view-initium-centro .views-field-title .field-content {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--letra-blue);
+  text-align: center;
+}
+
+.view-initium-centro .views-field-field-descripcion .field-content {
+  font-size: 18px;
+  color: #6F7CB2;
+}
+
+.view-initium-centro .views-row {
+  margin-bottom: 2rem;
+}
+
+#block-views-block-initium-centro-block-1 h2 {
+  font-size: 35px;
+}
+
+.node-234 .sf-menu li.menuparent::after {
+  color: #fff;
+}
+
+.node-237 span.sf-depth-1.nolink {
+  color: #fff;
+}
+
+.node-237 #superfish-main li.menuparent::after,
+.node-237 .sf-menu li.menuparent::after {
+  color: #fff
+}
+
+.node-237 .sf-menu li.sfHover ul li a:hover,
+.node-237 .sf-menu li.menuparent > ul li a:hover {
+  color: var(--vum-color) !important;
+}
+
+.news-slider .slide-content img {
+  width: 100%;
+}
+
+.news-slider .slick-dots li button {
+  width: 10px !important;
+  height: 12px !important;
+  background: #e2e2e2 !important;
+}
+
+.news-slider .slick-dots li.slick-active button {
+  background: #004D91 !important;
+}
+
+.news-inner-main {
+  padding: 0px;
+}
+
+.path-taxonomy ul.sf-menu a.sf-depth-1 {
+  color: #004d91;
+}
+
+/*Cambios en el menu*/
+#block-navegacionprincipal {
+  width: 70% !important;
+}
+
+#superfish-main {
+  justify-content: start;
+  width: 75%;
+}
+
+.path-frontpage #superfish-main,
+.style-page-orange #superfish-main,
+.style-page-initium #superfish-main,
+.node-53 #superfish-main,
+.style-page-cedei #superfish-main,
+.node-52 #superfish-main,
+.style-page-cinoi #superfish-main,
+.node-54 #superfish-main,
+.style-page-biblioteca #superfish-main,
+.node-16 #superfish-main,
+.page-node-type-centros #superfish-main,
+.path-autoridades #superfish-main,
+.page-node-type-persona #superfish-main,
+.path-facultad-de-comunicacion #superfish-main,
+.page-node-type-carreras #superfish-main,
+.page-node-type-page #superfish-main,
+.page-node-type-noticias #superfish-main,
+.path-facultad-de-ingenieria #superfish-main,
+.path-facultad-de-ciencias-biomedicas #superfish-main,
+.path-facultad-de-ciencias-empresariales #superfish-main,
+.path-facultad-de-derecho #superfish-main,
+.path-facultad-de-humanidades #superfish-main,
+.path-facultad-de-umpe #superfish-main,
+.path-noticias #superfish-main,
+.path-actividades #superfish-main,
+.path-search #superfish-main,
+.page-node-type-ieem #superfish-main,
+.page-node-type-informacion-fcee #superfish-main,
+.page-node-type-video #superfish-main,
+.page-node-type-actividades #superfish-main,
+.style-page-internacional #superfish-main {
+  /*width: 65% !important;*/
+}
+
+#superfish-menu-home {
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+  /*padding-top: 5px !important;*/
+}
+
+.fac-menu ul.sf-menu.menu li {
+  margin: 0 auto;
+}
+
+/*End cambios en el menu*/
+
+/* END INITIUM*/
+/*Centro biblioteca*/
+.webform-home.biblioteca .con-btn input {
+  background: var(--vum-color);
+}
+
+.herramienta-slider {
+  margin-top: 2rem;
+}
+
+/*End centro biblioteca*/
+/*Listado de autoridades*/
+.autoridades-titulo .field-content {
+  color: var(--letra-blue);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+
+.node--type-persona .field--name-title {
+  font-weight: 400;
+}
+
+.node--type-persona .node__content .titulo-cargo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view-personas .no-aling .contenedor-autoridades .cargo-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.node--type-persona .field--name-field-cargo-persona {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.node--type-persona .field--name-body {
+  color: #000 !important;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.node--type-persona .contacto-link .icono {
+  margin-right: 2rem;
+
+}
+
+.contenedor-autoridades .imagen .views-field-field-image img,
+.node--type-persona .field--name-field-image img {
+  /*width: 100%;*/
+  height: auto;
+}
+
+.contenedor-autoridades .cargo .field-content {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.view-autoridades .views-row {
+  margin-bottom: 3rem;
+}
+
+.carousel-caption {
+  bottom: 115px;
+}
+
+.scholar-main-panel .panel-body {
+  background: none;
+}
+
+.style-page-purple .bg-lightblue,
+.path-ciencias-biomedicas .region-menu {
+  background: var(--biomedica-color) !important;
+}
+
+.style-page-orange .bg-lightblue,
+.path-facultad-de-ciencias-empresariales-y-economia .region-menu {
+  background: var(--fcee-color) !important;
+}
+
+.style-page-red .bg-lightblue,
+.path-facultad-de-derecho .region-menu {
+  background: var(--derecho-color) !important;
+}
+
+.style-page-blue .bg-lightblue,
+.path-unidad-de-maestrias-y-postgrados-en-economia-umpe .region-menu {
+  background: var(--umpe-color) !important;
+}
+
+.style-page-violet .bg-lightblue,
+.path-facultad-de-ingenieria .region-menu {
+  background: var(--fium-color) !important;
+}
+
+.style-page-greenyellow .bg-lightblue,
+.path-facultad-de-comunicacion .region-menu {
+  background: var(--fcom-color) !important;
+}
+
+.style-page-aqua .bg-lightblue,
+.path-facultad-de-humanidades-y-educacion .region-menu {
+  background: var(--fhum-color) !important;
+}
+
+.style-page-initium .bg-lightblue,
+.node-53 .bg-lightblue {
+  background: var(--vum-color) !important;
+}
+
+/*Facultad comunicacion*/
+.style-page-greenyellow .g-card:hover {
+  background: var(--fcom-color);
+}
+
+.style-page-greenyellow #block-menucarrerasdegradofcom ul.menu .g-btn {
+  width: 32%;
+  text-transform: uppercase;
+  background: var(--fcom-color);
+}
+
+.style-page-greenyellow #block-menucarrerasdegradofcom ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.style-page-greenyellow .list-card li:hover,
+.style-page-greenyellow .region-menu {
+  background: var(--fcom-color);
+}
+
+#superfish-menu-fcom, #superfish-menu-fhumye {
+  padding-top: 3px;
+}
+
+/*End facultad de comunicacion*/
+/*Facultad de FHUMyE*/
+.style-page-aqua .g-card:hover {
+  background: var(--fhum-color) !important;
+}
+
+.style-page-aqua .list-card li:hover {
+  background: var(--fhum-color);
+}
+
+.style-page-aqua #block-carrerasdegradofhumye ul.menu .g-btn {
+  width: 32%;
+  text-transform: uppercase;
+  background: var(--fhum-color);
+}
+
+.style-page-aqua #block-carrerasdegradofhumye ul.menu .g-btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.view-display-id-block_2 .views-row .field-content i {
+  padding-right: 5px;
+}
+
+.style-page-aqua .region-menu {
+  background: var(--fhum-color);
+}
+
+.view-carreras-de-grado-por-facultad .views-row .views-field-title a {
+  color: #A2ABB7;
+}
+
+.view-carreras-de-grado-por-facultad .o-grad-inner .views-row .g-card:hover .views-field-title a {
+  color: #fff !important;
+}
+
+/*END Facultad de FHUMyE*/
+/*Paragraph seccion en carreras*/
+.layout-container {
+  /*margin-bottom: 5% !important;*/
+}
+
+.paragraph {
+  margin-top: 1rem;
+}
+
+.field--name-field-areas .titulo-seccion {
+  font-size: 23px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.seccion-no-colapsable {
+  margin-top: 3%;
+}
+
+/*End Paragraph seccion en carreras*/
+/*Cambios en templates*/
+.news-head a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #091133;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-12 > .sec-title,
+#block-views-block-ofertas-de-postgrado-facultades-block-5 > .sec-title {
+  padding-bottom: 0px;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-12 .views-row .views-field-title a {
+  color: var(--fcee-color) !important;
+  text-transform: uppercase !important;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-12 .w-20:hover .views-row .views-field-title a {
+  color: #ffffff !important;
+}
+
+.dep-bg .view-ofertas-de-postgrado-facultades .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .views-field-title a,
+.dep-bg.view-ofertas-de-postgrado-facultades .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .views-field-title a {
+  color: #091133 !important;
+  font-weight: bold;
+}
+
+.dep-bg .view-ofertas-de-postgrado-facultades .g-card:hover .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .g-card:hover .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .g-card:hover .views-field-title a,
+.dep-bg .view-ofertas-de-postgrado-facultades .g-card:hover .views-field-title a {
+  color: #ffffff !important;
+}
+
+.view-ofertas-de-postgrado-facultades .g-card {
+  height: 180px;
+  font-size: 24px;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-6 .g-card a,
+#block-views-block-ofertas-de-postgrado-facultades-block-9 .g-card a {
+  text-transform: uppercase !important;
+  color: #A2ABB7 !important;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-9 .g-card {
+  height: 128px !important;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-9 .g-card:hover .views-field-title a,
+#block-views-block-ofertas-de-postgrado-facultades-block-11 .g-card:hover a,
+#block-views-block-ofertas-de-postgrado-facultades-block-6 .g-card:hover a {
+  color: #ffffff !important;
+}
+
+#block-views-block-ofertas-de-postgrado-facultades-block-11 .g-card a {
+  color: #A2ABB7 !important;
+}
+
+.view-ofertas-de-postgrado-facultades .g-card a {
+  text-transform: none !important;
+  color: #091133 !important;
+}
+
+.view-display-id-block_6 .g-card {
+  min-height: 160px;
+  height: auto;
+}
+
+.view-display-id-block_9 .g-card a {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #A2ABB7;
+  cursor: pointer;
+  transition: all .6s ease-in-out;
+}
+
+.view-display-id-block_9 .g-card:hover a {
+  color: #ffffff;
+}
+
+/*End Cambios en templates*/
+/*Centros*/
+.style-page-initium .region-menu,
+.node-53 .region-menu {
+  background-color: var(--vum-color);
+}
+
+.view-videos .views-row {
+  margin-bottom: 1rem;
+}
+
+.seccion-no-colapsable .titulo-seccion {
+  font-size: 23px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#cal-centros .cal-box {
+  background-color: #ffffff;
+  border: none;
+}
+
+#cal-centros .cal-box .title {
+  border-bottom: 1px solid #cdd1d4;
+}
+
+#cal-centros .des .views-field-field-descripcion {
+  border-top: none;
+}
+
+.view-equipos-y-profesores .views-field-field-informacion-adicional,
+.descripcion-centro {
+  font-size: 18px;
+  color: #5c5c5c;
+  font-weight: 200;
+}
+
+.style-page-cedei ul.sf-menu a.sf-depth-1,
+.node-52 ul.sf-menu a.sf-depth-1,
+.style-page-cinoi ul.sf-menu a.sf-depth-1,
+.node-54 ul.sf-menu a.sf-depth-1,
+.style-page-biblioteca ul.sf-menu a.sf-depth-1,
+.style-page-internacional ul.sf-menu a.sf-depth-1,
+.style-page-international ul.sf-menu a.sf-depth-1,
+.node-16 ul.sf-menu a.sf-depth-1 {
+  color: #004d91;
+}
+
+.style-page-cedei .green-news .news-overlay,
+.node-52 .green-news .news-overlay,
+.style-page-cinoi .green-news .news-overlay,
+.node-54 .green-news .news-overlay,
+.style-page-biblioteca .green-news .news-overlay,
+.node-16 .green-news .news-overlay,
+.style-page-internacional .green-news .news-overlay,
+.style-page-international .green-news .news-overlay {
+  background: linear-gradient(178.62deg, #004d91 1.57%, rgba(0, 0, 0, 0) 147.62%) !important;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.13) !important;
+}
+
+.owl-carousel-biblio .titulo-seccion {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #091133;
+}
+
+#colecciones .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region-centros-carrusel {
+  margin-top: 2rem;
+}
+
+.region.region-botones-lateral .sec-title {
+  padding-bottom: 6px;
+}
+
+.region-imagen-video {
+  margin-top: 7rem;
+}
+
+.no-aling {
+  text-align: inherit !important;
+}
+
+/*Node persona*/
+.node--type-persona .imagen-redes .icono {
+  margin-bottom: 1rem;
+}
+
+.node--type-persona .imagen-redes .field--name-field-image {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.node--type-persona .description-cargo .icono svg {
+  align-self: end;
+  margin-right: .5rem;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.contactos-persona label {
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.node--type-persona .contactos-persona {
+  margin-bottom: 2rem;
+}
+
+.node--type-persona .icono {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5c5c5c;
+}
+
+.node--type-persona .node__content {
+  margin-top: 5rem;
+}
+
+@media (max-width: 1024px) {
+  .view-personas .views-field-field-image .field-content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#block-views-block-personas-block-14 {
+  margin-bottom: 10rem;
+}
+
+.path-autoridades .contenido-home {
+  margin-top: 3rem;
+}
+
+/*estilo listado de actividades*/
+.listado-actividades .n-img {
+  text-align: center;
+}
+
+.listado-actividades .n-img h4 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+}
+
+.listado-actividades .n-img .mes-anno-act {
+  color: #091133;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.region-header .nav-left .field--name-body p {
+  margin-bottom: 0px;
+}
+
+.webform-home .con-bottom .button {
+  position: inherit !important;
+  z-index: 10;
+}
+
+.listado-actividades .n-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-overlay .views-field-field-body .field-content {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.view-novedades-fcee .view-content {
+  min-height: 610px;
+}
+
+.view-novedades-fcee .more-link {
+  text-align: left !important;
+  padding-left: 8rem;
+}
+
+.view-actividades {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-actividades .more-link {
+  text-align: inherit !important;
+}
+
+.resumen-nodo {
+  margin-bottom: 3rem;
+  font-size: 16px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.node--type-noticias .blog-post__header {
+  padding-bottom: 25px;
+}
+
+#block-nombredeheaderinternational {
+  width: 240px;
+}
+
+#block-views-block-listados-de-paragraphs-block-17 > .sec-title,
+#block-views-block-listados-de-paragraphs-block-18 > .sec-title,
+#block-views-block-listados-de-paragraphs-block-20 > .sec-title,
+#block-views-block-listados-de-paragraphs-block-24 > .sec-title,
+#block-views-block-listados-de-paragraphs-block-25 > .sec-title,
+#block-views-block-listados-de-paragraphs-block-26 > .sec-title {
+  padding-bottom: 0px !important;
+}
+
+/*CSS UM*/
+.style-page-red .view-display-id-block_20 .view-content .row {
+  margin-top: 60px;
+}
+
+.style-page-red .view-display-id-block_20 .view-content .g-card {
+  text-transform: unset;
+  height: 190px;
+  background: rgba(255, 255, 255, .7);
+}
+
+.style-page-red .view-display-id-block_20 .view-content .g-card a {
+  color: #091133;
+}
+
+.style-page-red .view-display-id-block_20 .view-content .g-card:hover {
+  background: rgba(192, 13, 26, .7);
+}
+
+.style-page-red .view-display-id-block_20 .view-content .g-card:hover a {
+  color: #fff;
+}
+
+.view-id-disciplinas.view-display-id-block_2 .views-row {
+  margin-bottom: 1rem;
+}
+
+.view-id-disciplinas.view-display-id-block_2 .title-absolute {
+  padding: 1rem 2.5rem;
+  max-width: 288px;
+}
+
+#block-views-block-disciplinas-block-2 .sec-title {
+  padding-bottom: 60px;
+}
+
+
+#block-views-block-disciplinas-block-2 .subtitle {
+  font-size: 36px;
+}
+
+.otra-info .views-field-field-body-1 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*End CSS UM*/
+
+.style-page-initium .field--name-field-descripcion h3,
+.node-53 .field--name-field-descripcion h3 {
+  color: #091133;
+  font-style: italic;
+}
+
+.paragraph--type--seccion .field--name-field-body ul li {
+  font-size: 15px;
+  color: #6a6a6a;
+  line-height: 31px;
+  text-align: justify;
+  /*letter-spacing: 1px;*/
+  list-style: disc !important;
+  margin-left: 2rem;
+  font-weight: 200;
+}
+
+.node {
+  margin-top: 3rem;
+}
+.page-node-type-centros .node{
+  margin-top: 0rem !important;
+}
+
+.preuniversitarios-menu .menu-item a {
+  color: #ffffff;
+}
+
+.preuniversitarios-menu .menu-item a:hover {
+  text-decoration: underline !important;
+}
+
+.act-detail h3 a {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #091133;
+  margin-top: 0;
+}
+
+.act-detail .views-field-field-body {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5c5c5c;
+}
+
+#block-views-block-actividades-block-5 .view-content {
+  min-height: 175px;
+}
+
+.listado-actividades .news-des .views-field-field-body .field-content {
+  min-width: 758px;
+}
+
+.view-actividades .views-field-field-body .field-content {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5D6970;
+}
+
+.nav-left .block-block-content {
+  margin-left: 15px;
+}
+
+.path-frontpage h2::after,
+.node-52 h2::after,
+.node-153 h2::after,
+.style-page-cedei h2::after,
+.node-52 h2::after,
+.style-page-cinoi h2::after,
+.node-54 h2::after,
+.style-page-biblioteca h2::after,
+.node-16 h2::after,
+.style-page-internacional h2::after,
+.style-page-international h2::after,
+.page-node-type-page h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid #004d91;
+  content: "";
+  text-align: center;
+}
+
+.style-page-orange h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--fcee-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-red h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--derecho-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-purple h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--biomedica-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-blue h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--umpe-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-violet h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--fium-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-aqua h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--fhum-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-greenyellow h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--fcom-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.style-page-vum h2::after,
+.style-page-initium h2::after,
+.node-53 h2::after {
+  display: block;
+  width: 80px;
+  border-bottom: 5px solid var(--vum-color);
+  content: "";
+  text-align: center;
+  margin-top: 5px;
+}
+
+.path-frontpage .dep-list li,
+.style-page-cedei .dep-list li,
+.node-52 .dep-list li,
+.style-page-cinoi .dep-list li,
+.node-54 .dep-list li,
+.style-page-biblioteca .dep-list li,
+.node-16 .dep-list li,
+.style-page-internacional .dep-list li,
+.style-page-international .dep-list li {
+  background-color: #004d91;
+}
+
+.titulo-decano .views-field-title a {
+  color: #ffffff !important;
+}
+
+.word-detail {
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+.word-detail p {
+  color: #ffffff !important;
+}
+
+.views-more-link {
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+
+}
+
+.views-more-link:hover {
+  text-decoration: underline !important;
+  color: #ffffff;
+}
+
+.style-page-orange .dep-list li,
+.style-page-orange .word-detail {
+  background-color: var(--fcee-color);
+}
+
+.style-page-red .dep-list li,
+.style-page-red .word-detail {
+  background-color: var(--derecho-color);
+}
+
+.style-page-purple .dep-list li,
+.style-page-purple .word-detail {
+  background-color: var(--biomedica-color);
+}
+
+.style-page-blue .dep-list li,
+.style-page-blue .word-detail {
+  background-color: var(--umpe-color);
+}
+
+.style-page-violet .dep-list li,
+.style-page-violet .word-detail {
+  background-color: var(--fium-color);
+}
+
+.style-page-aqua .dep-list li,
+.style-page-aqua .word-detail {
+  background-color: var(--fhum-color);
+}
+
+.style-page-greenyellow .dep-list li,
+.style-page-greenyellow .word-detail {
+  background-color: var(--fcom-color);
+}
+
+.style-page-vum .dep-list li,
+.style-page-initium .dep-list li,
+.node-53 .dep-list li {
+  background-color: var(--vum-color);
+}
+
+.view-palabras-del-decano h2.field-content {
+  font-weight: bold;
+}
+
+h3 {
+  color: #091133;
+  font-style: italic;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.s-card .s-text a,
+.slider-text h4 a {
+  color: #091133;
+}
+
+.padding-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.style-page-internacional .webform-home .con-btn input {
+  border: 0px;
+}
+
+.style-page-internacional .link-form-alumnos .more-link {
+  text-align: start;
+}
+
+#block-views-block-listados-de-paragraphs-block-1-2 .view-header .subtext {
+  text-align: left;
+}
+
+.sec-title-diploma, .sec-title-perfil {
+  font-size: 22px;
+  line-height: 26px;
+  color: #5c5c5c;
+  font-weight: 200;
+  padding-bottom: 50px;
+}
+
+.imagen-video-students img {
+  height: auto;
+}
+
+.texto-students .field-content {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5c5c5c;
+  font-weight: 200;
+}
+
+#block-views-block-video-imagen-block-6 {
+  margin-bottom: 3rem;
+}
+
+.sec-title-students {
+  font-size: 22px;
+  line-height: 26px;
+  color: #5c5c5c;
+  font-weight: 200;
+}
+
+ul.sf-menu .sf-with-ul {
+  padding-right: 1em;
+}
+
+ul.sf-menu span.nolink {
+  padding: 1em .8em;
+}
+
+.style-page-international .navbar-list {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.style-page-international .region-menu-international {
+  width: 50%;
+}
+
+.eco-international .scholar-main-panel .panel-body {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5c5c5c;
+  font-weight: 200
+}
+
+.owl-carousel-gallery .imagen img {
+  margin-right: 1rem;
+}
+
+.international-h2 .subtitle {
+  font-size: 24px !important;
+}
+
+.documentos .field--name-field-documento a {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #5D6970;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.documentos .field--name-field-documento a::before {
+  font-family: 'FontAwesome';
+  content: '\f1c1';
+  margin-right: 1rem;
+  color: #091133;
+  font-size: 20px;
+}
+
+.view-personas .views-field-field-image .field-content,
+.view-palabras-del-decano .views-field-field-image .field-content {
+  display: flex;
+  justify-content: center;
+}
+
+.view-personas .word-img,
+.view-palabras-del-decano .imagen-facultad {
+  padding: 0px !important;
+}
+
+.view-personas .word-img img {
+  width: inherit !important;
+}
+
+.documentos .field--name-field-documento .file--application-pdf {
+  background: none;
+}
+
+.documentos .field--name-field-documento a:hover {
+  color: #091133;
+}
+
+.slider-pro .descripcion .views-field-field-cargo-persona {
+  text-align: center;
+}
+
+.slider-pro .slider-text {
+  padding: 0px 20px 20px 20px;
+}
+
+.imagen-centro .field--name-field-image img {
+  height: auto;
+}
+
+@media (max-width: 990px) {
+  .rec-content {
+    padding: 45px !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .home-section, .silder-fcee {
+    height: 250px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .view-slider .views-row .views-field-field-image img {
+    height: auto;
+  }
+
+  #block-marcadelsitio .site-logo-resp img {
+    width: 120px !important;
+  }
+}
+
+ul.tabs.primary {
+  display: flex;
+}
+
+ul.tabs.primary li a {
+  width: 100px;
+  height: 45px;
+  transition: all .6s ease-in-out;
+  background: #004D91;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+
+ul.tabs.primary li a {
+  color: #FFFFFF;
+}
+
+ul.tabs.primary li a:hover,
+ul.tabs.primary li a.is-active {
+  background: #ffffff;
+  color: #004D91;
+  border: 2px solid #004D91;
+}
+
+.international-h2 {
+  font-size: 26px !important;
+}
+
+.form-item-area-de-interes select.form-select,
+.form-item-facultad-de-interes select.form-select,
+.form-item-asunto select.form-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background-image: url(../images/down-arrow.png); /* Add custom arrow */
+  border: 1px solid #eee;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 95%;
+  padding: 15px;
+  width: 100%;
+}
+
+.terminos #edit-terminos, .check-terminos label {
+  color: #5c5c5c;
+}
+
+.path-frontpage #block-contactoum .sec-title {
+  display: none;
+}
+
+.view-beneficios-de-estudiantes .views-row {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  display: flex;
+}
+
+.region-footer {
+  margin-right: 2px;
+}
+
+.cal-box .views-field-title a {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  color: #091133;
+}
+
+.view-busqueda .views-exposed-form .form-actions input {
+  margin-top: 0px;
+}
+.share-content{
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
+.share-content .list__share-modal{
+  display: flex;
+  justify-content: space-between;
+}
+.share-content .list__share-modal li a{
+  font-size: 2rem;
+}
+.page-node-type-carreras .section-bottom,
+.page-node-type-page .section-bottom{
+  padding-bottom: 20px;
+}
+.webform-submission-alumnos-internacionales-form .fecha .js-form-type-date input{
+  height: 47px;
+  width: 100%;
+  border: 1px solid #ECEFEE;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+  padding: 0px 0px 0px 15px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  transition: all .6s ease-in-out;
+}
+
+/*End estilo listado de actividades*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .imagen-centro .field--name-field-image img{
+    height: 200px;
+  }
+  .view-emprendimientos .views-row .views-field-field-image .field-content{
+    display: flex;
+    justify-content: center;
+  }
+  .region-logos-initium .field--name-body p{
+    flex-direction: column;
+    align-items: center;
+  }
+  .path-buscar .views-exposed-form .form--inline{
+    flex-direction: column;
+  }
+  .view-busqueda .views-exposed-form .form--inline .form-item-palabras-claves{
+    width: 100% !important;
+  }
+  .view-busqueda .views-exposed-form .form-actions input{
+    margin-top: 55px;
+    width: 100%;
+  }
+  .views-exposed-form .form--inline .form-item-palabras-claves input.form-text{
+    width: 100% !important;
+  }
+  .views-exposed-form .form--inline .form-item-palabras-claves label{
+    display: none;
+  }
+  .views-exposed-form .form-actions::after{
+    background: none;
+  }
+
+  footer {
+    margin-top: 5rem;
+  }
+
+  #block-um-branding a.site-logo {
+    display: none;
+  }
+
+  .view-palabras-del-decano {
+    margin-top: 3rem;
+  }
+
+  .view-palabras-del-decano .imagen-facultad {
+    margin-bottom: 3rem;
+  }
+
+  .view-palabras-del-decano .imagen-facultad {
+    margin-bottom: 3rem;
+  }
+
+  .view-palabras-del-decano .imagen-facultad .field-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .n-img {
+    display: contents !important;
+  }
+
+  .block-views-blocklistados-de-paragraphs-block-14 {
+    padding-top: 45px;
+  }
+
+  .copyright {
+    flex-direction: column;
+  }
+
+  .node--type-persona .node,
+  .page-node-type-persona .node__content {
+    margin-top: 0rem;
+  }
+
+  .news-meta {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .news-meta .field--name-field-fecha {
+    order: 1;
+    margin-bottom: 2rem;
+    padding-left: 20px;
+  }
+
+  .news-meta span {
+    padding: 7px 0px;
+    order: 2;
+  }
+
+  .titulo-centro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .view-listado .views-row .news-des {
+    margin-top: 2rem;
+  }
+
+  #block-views-block-ofertas-de-postgrado-facultades-block-1 > h2,
+  #block-views-block-ofertas-de-postgrado-facultades-block-2 > h2 {
+    text-align: center;
+  }
+
+  .con-bottom a.con-link {
+    padding-top: 5%;
+  }
+
+  .cssmenu-resp .button {
+    top: 14px !important;
+  }
+
+  .region-silder {
+    margin-top: -14px;
+  }
+
+  .node--type-persona .node__content .subtitle {
+    text-align: center;
+  }
+
+  .view-informacion-de-facultades .list-card li {
+    width: 100%;
+  }
+
+  h2:after {
+    margin: 0 auto;
+  }
+
+  .sec-title-perfil-h2,
+  .sec-title-h2,
+  .sec-title {
+    text-align: center;
+  }
+
+  .blog-post__header {
+    padding: 0px 0px 20px !important;
+  }
+
+  .mapa {
+    margin-top: 3rem;
+  }
+
+  /*.path-frontpage h2::after,*/
+  /*.node-52 h2::after,*/
+  /*.node-153 h2::after,*/
+  /*.style-page-cedei h2::after,*/
+  /*.node-52 h2::after,*/
+  /*.style-page-cinoi h2::after,*/
+  /*.node-54 h2::after,*/
+  /*.style-page-biblioteca h2::after,*/
+  /*.node-16 h2::after,*/
+  /*.style-page-internacional h2::after,*/
+  /*.style-page-international h2::after,*/
+  /*.page-node-type-page h2::after,*/
+  /*.node-53 h2::after,*/
+  /*.style-page-purple h2::after,*/
+  /*.style-page-vum h2::after,*/
+  /*.style-page-initium h2::after,*/
+  /*.style-page-greenyellow h2::after,*/
+  /*.style-page-blue h2::after,*/
+  /*.style-page-aqua h2::after,*/
+  /*.style-page-violet h2::after,*/
+  /*.style-page-red h2::after,*/
+  /*.style-page-orange h2::after {*/
+  /*  margin: 0 auto;*/
+  /*}*/
+  .section-bottom {
+    padding-bottom: 2rem;
+  }
+
+  .rec-content {
+    padding-left: 45px !important;
+  }
+
+  .rec-circle {
+    left: 30% !important;
+  }
+
+  .list-btn {
+    right: 30%;
+  }
+
+  .view-novedades-fcee .more-link {
+    padding-left: 0rem;
+  }
+
+  .node--type-persona .contactos-persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .view-personas .sec-title {
+    text-align: center;
+  }
+
+  .node--type-persona .contactos-persona label {
+    margin-right: 2rem;
+  }
+
+  .section-bottom {
+    padding-bottom: 0px;
+  }
+
+  .w-45 {
+    width: 100% !important;
+  }
+
+  .view-perfil-facultades .views-row,
+  .view-diplomas-fcee .views-row {
+    text-align: center;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .webform-home .con-bottom,
+  .menu--carreras-de-grado-fhumye .menu,
+  .menu--menu-carreras-de-grado-fcom .menu,
+  .menu--menu-carreras-de-grado-fium .menu {
+    flex-direction: column;
+  }
+
+  .menu--menu-carreras-de-grado-fcom .menu li,
+  .menu--carreras-de-grado-fhumye .menu li,
+  .menu--menu-carreras-de-grado-fium .menu li {
+    width: 100% !important;
+  }
+
+  .menu--menu-carreras-de-grado-fcom .menu,
+  .menu--carreras-de-grado-fhumye .menu,
+  .menu--menu-carreras-de-grado-fium .menu,
+  .menu--menu-especialidades-biomedi .menu,
+  .menu--menu-maestrias-umpe .menu,
+  .menu--menu-carreras-de-grado-fium .menu,
+  .menu--carreras-de-grado-fhumye .menu,
+  .menu--carreras-de-grado-derecho .menu,
+  .menu--menu-carreras-de-grado-fcom .menu,
+  .menu--menu-carreras-de-grado-fcee .menu {
+    margin-left: 0rem;
+  }
+
+  .menu--menu-carreras-de-grado-fcom .menu li,
+  .menu--carreras-de-grado-fhumye .menu li,
+  .menu--menu-carreras-de-grado-fium .menu li,
+  .menu--menu-especialidades-biomedi .menu li,
+  .menu--menu-maestrias-umpe .menu li,
+  .menu--menu-carreras-de-grado-fium .menu li,
+  .menu--carreras-de-grado-fhumye .menu li,
+  .menu--carreras-de-grado-derecho .menu li,
+  .menu--menu-carreras-de-grado-fcom .menu li,
+  .menu--menu-carreras-de-grado-fcee .menu li {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .webform-home {
+    margin-bottom: 3rem;
+  }
+
+  .style-page-cedei .video,
+  .node-52 .video,
+  .style-page-cinoi .video,
+  .node-54 .video,
+  .style-page-biblioteca .video
+  .node-16 .video,
+  .style-page-internacional .video {
+    order: 2;
+  }
+
+  .style-page-cedei .botones,
+  .node-52 .botones,
+  .style-page-cinoi .botones,
+  .node-54 .botones,
+  .style-page-biblioteca .botones,
+  .node-16 .botones,
+  .style-page-biblioteca .botones {
+    order: 1;
+  }
+
+  .style-page-cedei .carrusel-centro,
+  .node-52 .carrusel-centro,
+  .style-page-cinoi .carrusel-centro,
+  .node-54 .carrusel-centro,
+  .style-page-biblioteca .carrusel-centro,
+  .node-16 .carrusel-centro {
+    order: 3;
+  }
+
+  #views-exposed-form-listado-page-1 .form--inline,
+  #views-exposed-form-listado-page-2 .form--inline {
+    flex-direction: column;
+  }
+
+  .filter-inner {
+    width: 100%;
+  }
+
+  .form-item-field-custom-year select,
+  .form-item-field-custom-month select,
+  .form-item-field-facultades-target-id select {
+    background-position: 98% 20px;
+  }
+
+  .view-id-listado .filters {
+    height: 470px;
+  }
+
+  .view-id-listado .button {
+    top: 0px;
+    right: -115px;
+    margin-top: 0px !important;
+    z-index: 10;
+  }
+
+  .webform-home .row {
+    display: inherit;
+  }
+
+  .carousel-inner {
+    /*height: 60%;*/
+    margin: 0px !important;
+  }
+
+  .carousel-control {
+    /*top: 42%;*/
+    bottom: 25px;
+  }
+
+  .path-frontpage .home-section,
+  .silder-fcee {
+    height: 175px;
+  }
+
+  .webform-home .form-actions {
+    margin: 0 auto;
+  }
+
+  .webform-home .con-btn {
+    justify-content: center;
+  }
+
+  .view-novedades-fcee .more-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .region-silder .block-menu {
+    display: none;
+  }
+
+  .view-actividades .views-row {
+    margin-bottom: 1rem;
+  }
+
+  #block-um-branding,
+  .um-fac-branding {
+    height: 56px;
+  }
+
+  .view-slider .carousel-inner .views-row {
+    position: relative;
+  }
+
+  .carousel-caption {
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    width: 280px;
+    top: 0;
+
+  }
+
+  /*.carousel {*/
+  /*  height: auto;*/
+  /*}*/
+
+  .carousel-control {
+    top: 180px;
+  }
+
+  .carousel-control.left {
+    left: 30%;
+  }
+
+  .carousel-control.right {
+    right: 30%;
+  }
+
+  #block-views-block-listados-de-paragraphs-block-28 .sec-title {
+    text-align: left !important;
+  }
+
+  .path-frontpage .cent-section {
+    padding: 0px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .imagen-centro .field--name-field-image img{
+    height: 435px;
+  }
+  .view-emprendimientos .views-row .views-field-field-image .field-content{
+    display: flex;
+    justify-content: center;
+  }
+  .region-logos-initium .field--name-body p{
+    flex-direction: column;
+    align-items: center;
+  }
+  .view-busqueda .views-exposed-form .form-actions input{
+    margin-top: -6px;
+  }
+  .view-busqueda .views-exposed-form .form--inline .form-item-palabras-claves{
+    width: 63% !important;
+  }
+  .path-buscar .views-exposed-form .form--inline{
+    justify-content: start !important;
+  }
+  .views-exposed-form .form--inline .form-item-palabras-claves input.form-text{
+    width: 100% !important;
+  }
+  .views-exposed-form .form--inline .form-item-palabras-claves label{
+    display: none;
+  }
+  .view-palabras-del-decano {
+    margin-top: 3rem;
+  }
+
+  .view-palabras-del-decano .imagen-facultad {
+    margin-bottom: 3rem;
+  }
+
+  #block-um-branding a.site-logo {
+    display: none;
+  }
+
+  .cssmenu-resp .button {
+    top: 14px !important;
+  }
+
+  .region-silder {
+    margin-top: -14px;
+  }
+
+  .node--type-persona .node__content .subtitle {
+    text-align: center;
+  }
+
+  .view-personas .sec-title {
+    text-align: center;
+  }
+
+  .view-informacion-de-facultades .list-card li {
+    width: 100%;
+  }
+
+  .style-page-cedei .video,
+  .node-52 .video,
+  .style-page-cinoi .video,
+  .node-54 .video,
+  .style-page-biblioteca .video,
+  .node-16 .video,
+  .style-page-internacional .video {
+    order: 2;
+  }
+
+  .style-page-cedei .botones,
+  .node-52 .botones,
+  .style-page-cinoi .botones,
+  .node-54 .botones,
+  .style-page-biblioteca .botones,
+  .node-16 .botones,
+  .style-page-internacional .botones {
+    order: 1;
+  }
+
+  .style-page-cedei .carrusel-centro,
+  .node-52 .carrusel-centro,
+  .style-page-cinoi .carrusel-centro,
+  .node-54 .carrusel-centro,
+  .style-page-biblioteca .carrusel-centro,
+  .node-16 .carrusel-centro,
+  .style-page-internacional .carrusel-centro {
+    order: 3;
+  }
+
+  #views-exposed-form-listado-page-1 .form--inline,
+  #views-exposed-form-listado-page-2 .form--inline {
+    flex-direction: column;
+  }
+
+  .filter-inner {
+    width: 100%;
+  }
+
+  .form-item-field-custom-year select,
+  .form-item-field-custom-month select,
+  .form-item-field-facultades-target-id select {
+    background-position: 98% 20px;
+  }
+
+  .view-id-listado .filters {
+    height: 470px;
+  }
+
+  .view-id-listado .button {
+    top: 0px;
+    right: 110px;
+    margin-top: 0px !important;
+    z-index: 10;
+  }
+
+  .view-novedades-fcee .more-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    bottom: 140px;
+  }
+
+  .region-silder .block-menu {
+    display: none;
+  }
+
+  .carousel {
+    height: 420px;
+  }
+
+  .view-actividades .views-row {
+    margin-bottom: 1rem;
+  }
+
+  #block-um-branding,
+  .um-fac-branding {
+    height: 56px;
+    width: 100px;
+  }
+
+  .section-bottom {
+    padding-bottom: 2rem;
+  }
+
+  #block-views-block-listados-de-paragraphs-block-28 .sec-title {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .view-busqueda .views-exposed-form .form-actions input{
+    margin-top: -6px;
+  }
+  .view-busqueda .views-exposed-form .form--inline .form-item-palabras-claves{
+    width: 70% !important;
+    display: flex;
+  }
+  .path-buscar .views-exposed-form .form--inline{
+    justify-content: start !important;
+  }
+  #block-um-branding a.site-logo {
+    display: none;
+  }
+
+  .section-bottom {
+    padding-bottom: 0px;
+  }
+
+  .con-bottom.mensaje {
+    margin-left: 15px;
+  }
+
+  .view-id-listado .button {
+    top: -52px;
+    left: 0px;
+  }
+
+  .region-silder .block-menu {
+    display: none;
+  }
+
+  #views-exposed-form-listado-page-1 .form--inline,
+  #views-exposed-form-listado-page-2 .form--inline {
+    justify-content: flex-start;
+  }
+
+  .view-novedades-fcee .more-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-main {
+    justify-content: flex-start;
+  }
+
+  .carousel {
+    height: 430px;
+  }
+
+  #block-um-branding,
+  .um-fac-branding {
+    height: 60px;
+  }
+
+  #block-views-block-listados-de-paragraphs-block-28 .sec-title {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 1025px) and  (max-width: 1200px) {
+  .region-imgpostgrado {
+    /*position: absolute;*/
+    /*bottom: -30.4rem;*/
+    transform: translateY(38%);
+  }
+}
